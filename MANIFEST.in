@@ -1,0 +1,6 @@
+include MANIFEST.in
+include requirements.txt
+include *.md
+include setup.py
+include setup.cfg
+recursive-include indtools_pwa *.py *.json *.html *.js *.css *.png *.svg *.jpg

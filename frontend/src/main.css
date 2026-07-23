@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; height: auto; overflow: auto; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f5f5f5; color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: static; overflow: auto;
+  width: 100%; height: auto; max-height: none;
+  overscroll-behavior-y: auto;
+  -ms-content-zooming: auto;
+  touch-action: auto;
+}
+
+/* Ensure no Ionic wrapper blocks scrolling */
+ion-page, ion-content, ion-router-outlet {
+  position: static !important;
+  overflow: visible !important;
+  height: auto !important;
+  width: auto !important;
+  inset: auto !important;
+}
+
+.container { max-width: 1280px; margin: 0 auto; padding: 0 1rem; }
+@media (min-width: 640px) { .container { padding: 0 1.5rem; } }
+@media (min-width: 1024px) { .container { padding: 0 2rem; } }
+
+.hero-slider { position: relative; overflow: hidden; height: 50vh; min-height: 320px; }
+@media (min-width: 768px) { .hero-slider { height: 75vh; min-height: 480px; } }
+
+.hero-slide { position: absolute; inset: 0; transition: opacity 1s ease-in-out; }
+.hero-slide.active { opacity: 1; }
+.hero-slide:not(.active) { opacity: 0; }
+.hero-slide img { width: 100%; height: 100%; object-fit: cover; }
+.hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.55), transparent); }
+
+.hero-content { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center; color: white; z-index: 5; }
+.hero-content h1 { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; }
+.hero-content p { font-size: 1.125rem; margin-bottom: 2rem; max-width: 48rem; margin-left: auto; margin-right: auto; }
+@media (min-width: 768px) { .hero-content h1 { font-size: 3.5rem; } .hero-content p { font-size: 1.25rem; } }
+
+.product-card { background: white; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); overflow: hidden; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+.product-card:hover { box-shadow: 0 20px 40px rgba(0,0,0,0.1); transform: translateY(-8px); }
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#2a7f3e] text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 border-none cursor-pointer inline-flex items-center gap-2;
+  }
+  .btn-primary:hover { @apply bg-[#1a4d2a] shadow-lg; }
+}
+
+.nav-link { position: relative; padding: 0.375rem 0.75rem; border-radius: 9999px; transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); }
+.dark .nav-link { color: #d1d5db; }
+.nav-link:hover { background: rgba(42,127,62,0.08); }
+.dark .nav-link:hover { background: rgba(76,175,80,0.12); color: #4caf50; }
+.nav-link.active { background: #2a7f3e; color: white !important; font-weight: 600; box-shadow: 0 2px 8px rgba(42,127,62,0.35); }
+.dark .nav-link.active { background: #4caf50; color: #111 !important; box-shadow: 0 2px 8px rgba(76,175,80,0.4); }
+
+.scroll-to-top { position: fixed; bottom: 5rem; right: 1.5rem; z-index: 50; background: #2a7f3e; color: white; width: 2.5rem; height: 2.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: all 0.3s; border: none; }
+.scroll-to-top:hover { transform: scale(1.1); background: #1a4d2a; }
+@media (min-width: 768px) { .scroll-to-top { bottom: 2rem; } }
+
+.fab-whatsapp { position: fixed; bottom: 5rem; left: 1.5rem; z-index: 50; background: #25d366; color: white; width: 3.5rem; height: 3.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 4px 12px rgba(37,211,102,0.4); transition: all 0.3s; border: none; text-decoration: none; }
+.fab-whatsapp:hover { transform: scale(1.1); }
+@media (min-width: 768px) { .fab-whatsapp { bottom: 2rem; left: 2rem; width: 4rem; height: 4rem; } }
+
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+.fade-in-up { animation: fadeInUp 0.6s ease-out forwards; }
+
+@keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+.skeleton { background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: 0.375rem; }
+
+/* Mobile bottom tab */
+.mobile-tab {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  flex: 1; padding: 0.375rem 0; gap: 0.125rem;
+  transition: all 0.2s ease; text-decoration: none;
+}
+.mobile-tab-icon {
+  display: flex; align-items: center; justify-content: center;
+  width: 2.5rem; height: 2rem; border-radius: 1rem;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #9ca3af;
+}
+.mobile-tab-label {
+  font-size: 0.625rem; font-weight: 500; letter-spacing: 0.01em;
+  transition: all 0.2s ease; color: #9ca3af;
+}
+.dark .mobile-tab-icon { color: #4b5563; }
+.dark .mobile-tab-label { color: #4b5563; }
+
+.mobile-tab.active .mobile-tab-icon {
+  background: #2a7f3e; color: white;
+  box-shadow: 0 2px 8px rgba(42,127,62,0.4);
+}
+.mobile-tab.active .mobile-tab-label { color: #2a7f3e; font-weight: 600; }
+.dark .mobile-tab.active .mobile-tab-icon {
+  background: #4caf50; color: #111;
+  box-shadow: 0 2px 8px rgba(76,175,80,0.4);
+}
+.dark .mobile-tab.active .mobile-tab-label { color: #4caf50; }
+
+/* Responsive: hide/show */
+@media (min-width: 768px) {
+  .desktop-hide { display: none !important; }
+}
+@media (max-width: 767px) {
+  .mobile-hide { display: none !important; }
+}
+
+.safe-area-bottom { padding-bottom: env(safe-area-inset-bottom); }
+
+/* Mega menu transition */
+.mega-enter-active { transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1); }
+.mega-leave-active { transition: all 0.15s ease-in; }
+.mega-enter-from { opacity: 0; transform: translateX(-50%) translateY(8px) scale(0.97); }
+.mega-leave-to { opacity: 0; transform: translateX(-50%) translateY(4px) scale(0.99); }
+
+.fade-enter-active, .fade-leave-active { transition: opacity 0.2s ease; }
+.fade-enter-from, .fade-leave-to { opacity: 0; }

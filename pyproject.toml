@@ -1,0 +1,12 @@
+[project]
+name = "indtools_pwa"
+authors = [
+    { name = "INDTOOLS", email = "indtools1992@gmail.com" },
+]
+description = "INDTOOLS - Industrial Tools & Fasteners Ionic PWA"
+requires-python = ">=3.10"
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
