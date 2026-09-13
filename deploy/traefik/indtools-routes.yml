@@ -1,0 +1,51 @@
+# Traefik dynamic config for the INDTOOLS PWA behind Traefik (e.g. Dokploy).
+#
+# Terminates TLS (Let's Encrypt via the 'letsencrypt' certResolver), redirects
+# http->https, routes the PWA to the nginx front (port 8002) and /socket.io to
+# the SocketIO node (port 9001).
+#
+# Install: place in the Traefik dynamic dir (e.g. /etc/dokploy/traefik/dynamic/)
+# and Traefik hot-reloads it. Certs are issued automatically for the Host rules.
+
+http:
+  routers:
+    indtools-http:
+      rule: Host(`indtools.in`) || Host(`www.indtools.in`)
+      entryPoints:
+        - web
+      middlewares:
+        - redirect-to-https
+      service: indtools
+
+    indtools-https:
+      rule: (Host(`indtools.in`) || Host(`www.indtools.in`)) && !PathPrefix(`/socket.io`)
+      entryPoints:
+        - websecure
+      tls:
+        certResolver: letsencrypt
+      service: indtools
+
+    indtools-socketio:
+      rule: (Host(`indtools.in`) || Host(`www.indtools.in`)) && PathPrefix(`/socket.io`)
+      entryPoints:
+        - websecure
+      tls:
+        certResolver: letsencrypt
+      service: indtools-socketio
+
+  services:
+    indtools:
+      loadBalancer:
+        servers:
+          - url: http://10.1.0.230:8002
+        passHostHeader: true
+
+    indtools-socketio:
+      loadBalancer:
+        servers:
+          - url: http://10.1.0.230:9001
+        passHostHeader: true
+
+# Replace 10.1.0.230 with your nginx/bench host IP. Adjust Host(...) rules and
+# ports as needed. 'redirect-to-https' middleware is provided by the Traefik
+# deployment (Dokploy default).
