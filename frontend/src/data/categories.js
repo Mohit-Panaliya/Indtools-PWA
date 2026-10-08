@@ -32,6 +32,7 @@ export const categories = [
         standards: ["Engineered to provide reliable anchoring in concrete applications.", "High-quality construction for durability and load capacity."],
         dimensions: ["M6 (Part No: DA6) – 100 pcs", "M8 (Part No: DA8) – 100 pcs", "M10 (Part No: DA10) – 100 pcs", "M12 (Part No: DA12) – 100 pcs", "M16 (Part No: DA16) – 100 pcs", "M20 (Part No: DA20) – 100 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/drop-in-anchor.jpg"],
+        charts: [],
       },
       {
         name: "Nylon Frame Fixing Anchors",
@@ -42,6 +43,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/nylon-frame-fixing-anchors.jpg"],
+        charts: [],
       },
       {
         name: "Pin Type Anchor Bolt",
@@ -52,6 +54,7 @@ export const categories = [
         standards: ["Compliant with industry standards for anchor bolts.", "Designed for robust anchoring in concrete and masonry."],
         dimensions: ["M6X50 (Part No: PAB650) -100 pcs", "M6X75 (Part No: PAB675) – 100 pcs", "M6X100 (Part No: PAB6100) -100 pcs", "M8X75 (Part No: PAB875) – 100 pcs", "M8X100 (Part No: PAB8100) – 100 pcs", "M10X60 (Part No: PAB1060) – 100 pcs", "M10X75 (Part No: PAB1075) – 100 pcs", "M10X100 (Part No: PAB10100) – 100 pcs", "M10X125 (Part No: PAB10125) – 100 pcs", "M12X75 (Part No: PAB1275) – 100 pcs", "M12X100 (Part No: PAB12100) – 100 pcs", "M12X125 (Part No: PAB12125) – 100 pcs", "M12X150 (Part No: PAB12150) – 100 pcs", "M12X200 (Part No: PAB12200) – 100 pcs", "M16X100 (Part No: PAB16100) – 100 pcs", "M16X125 (Part No: PAB16125) – 100 pcs", "M16X150 (Part No: PAB16150) – 100 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/pin-type-anchor-bolt.jpg"],
+        charts: [],
       },
       {
         name: "Rawal Bolt",
@@ -62,6 +65,7 @@ export const categories = [
         standards: ["Engineered to meet high industry standards for anchoring bolts.", "Suitable for heavy-duty applications in concrete, brick, and stone."],
         dimensions: ["M6 (Part No: RB6) – 100 pcs", "M8 (Part No: RB8) -100 pcs", "M10 (Part No: RB10) – 100 pcs", "M12 (Part No: RB12) – 100 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/rawal-bolt.jpg"],
+        charts: [],
       },
       {
         name: "Rawal Hook",
@@ -72,6 +76,7 @@ export const categories = [
         standards: ["Complies with industry standards for heavy-duty anchoring hooks.", "Ideal for applications in masonry and concrete."],
         dimensions: ["M6 (Part No: RH6) – 100 pcs", "M8 (Part No: RH8) – 100 pcs", "M10 (Part No: RH10) – 100 pcs", "M12 (Part No: RH12) – 100 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/rawal-hook.jpg"],
+        charts: [],
       },
       {
         name: "Wedge Anchor (Through Bolt) With Nut & Washer",
@@ -82,6 +87,7 @@ export const categories = [
         standards: ["Conforms to industry standards for wedge anchors.", "Designed for optimal performance in concrete anchoring."],
         dimensions: ["8X75 (Part No: WANW875) – 800 pcs/carton – 100 pcs", "8X100 (Part No: WANW8100) – 720 pcs/carton – 100 pcs", "8X120 (Part No: WANW8120) – 640 pcs/carton – 100 pcs", "10X75 (Part No: WANW1075) – 600 pcs/carton – 100 pcs", "10X100 (Part No: WANW10100) – 480 pcs/carton – 100 pcs", "10X125 (Part No: WANW10125) – 400 pcs/carton – 100 pcs", "More sizes available…"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/wedge-anchor-through-bolt-with-nut-washer.jpg"],
+        charts: [],
       },
     ],
   },
@@ -109,7 +115,8 @@ export const categories = [
         longDescription: "Our 8.8 Grade Flange Bolt, featuring a sleek black finish and adhering to DIN 6921 standards, is a pinnacle of precision engineering. These bolts are ideal for applications requiring high tensile strength and durability. The unique flange design offers an increased bearing surface, allowing for a more secure and tighter fit. These bolts are perfect for various industrial and construction purposes, where reliable and sturdy fastening is paramount. Standards: Dimension Standard: DIN 6921 Material & Mechanical Properties: Class 8.8 as per IS: 1367 Thread Specification: ISO Metric 6g as per IS: 4218 Dimensions: Diameter Range: M6, M8, M10, M12, M16 Length Range: Up to 120mm Custom Sizes: Hex Bolt/Screw diameter up to 80mm & Length up to 1000mm can be manufactured upon request Part Numbers: Detailed in the provided table for various sizes",
         standards: ["Dimension Standard: DIN 6921", "Material & Mechanical Properties: Class 8.8 as per IS: 1367", "Thread Specification: ISO Metric 6g as per IS: 4218"],
         dimensions: ["Diameter Range: M6, M8, M10, M12, M16", "Length Range: Up to 120mm", "Custom Sizes: Hex Bolt/Screw diameter up to 80mm & Length up to 1000mm can be manufactured upon request", "Part Numbers: Detailed in the provided table for various sizes"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/8-8-grade-flange-bolt-black-finish-din-6921.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/8-8-grade-flange-bolt-black-finish-din-6921-chart-0.webp"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/8-8-grade-flange-bolt-black-finish-din-6921.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/8-8-grade-flange-bolt-black-finish-din-6921-chart-0.webp"],
       },
       {
         name: "8.8 Grade Hex Head Bolt – Black Finish (DIN 931 / IS 1364 [1967])",
@@ -119,7 +126,8 @@ export const categories = [
         longDescription: "The 8.8 Grade Hex Head Bolt, featuring a resilient black finish, adheres to DIN 931 and IS 1364 (1967) standards, ensuring top-notch quality and performance. Designed for half-thread applications, these bolts are optimal for structural and engineering tasks where strength and reliability are paramount. Their robust construction and precise engineering make them suitable for a wide range of heavy-duty applications, ensuring longevity and consistency in performance. Standards: Dimensional Standard: IS 1364 (1967) and DIN 933 Material & Mechanical Properties: Class 8.8 as per IS: 1367 Thread Specification: ISO Metric 6g as per IS: 4218 Dimensions: Diameter Range: M5 to M39 Length Options: Various lengths available as listed in the product table Customization: Hex Bolt/Screw diameter up to 80mm & Length up to 1000mm available on request Part Numbers & Pricing: Detailed in the accompanying table for different sizes",
         standards: ["Dimensional Standard: IS 1364 (1967) and DIN 933", "Material & Mechanical Properties: Class 8.8 as per IS: 1367", "Thread Specification: ISO Metric 6g as per IS: 4218"],
         dimensions: ["Diameter Range: M5 to M39", "Length Options: Various lengths available as listed in the product table", "Customization: Hex Bolt/Screw diameter up to 80mm & Length up to 1000mm available on request", "Part Numbers & Pricing: Detailed in the accompanying table for different sizes"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/8-8-grade-hex-head-bolt-black-finish-din-931-is-1364-1967.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/8-8-grade-hex-head-bolt-black-finish-din-931-is-1364-1967-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/8-8-grade-hex-head-bolt-black-finish-din-931-is-1364-1967.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/8-8-grade-hex-head-bolt-black-finish-din-931-is-1364-1967-chart-0.jpg"],
       },
       {
         name: "8.8 Grade Hex Head Screws – Black Finish (DIN 933 / IS 1364 [1967])",
@@ -130,6 +138,7 @@ export const categories = [
         standards: ["Dimensional Standard: IS 1364 (1967) and DIN 933", "Material & Mechanical Properties: Class 8.8 as per IS: 1367", "Thread Specification: ISO Metric 6g as per IS: 4218"],
         dimensions: ["Diameter Range: M5 to M64", "Length Range: Various lengths available, detailed in the product table", "Custom Sizes: Hex Bolt/Screw diameter up to 80mm & Length up to 1000mm can be manufactured upon request", "Part Numbers & Pricing: Detailed in the provided table for various sizes and diameters"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/8-8-grade-hex-head-screws-black-finish-din-933-is-1364-1967.jpg"],
+        charts: [],
       },
       {
         name: "Grade Carriage Bolt – Black Finish (DIN 603)",
@@ -139,7 +148,8 @@ export const categories = [
         longDescription: "The 8.8 Grade Carriage Bolt, featuring a black finish, is designed for robust and secure fastening in a variety of applications. Manufactured to meet the highest industry standards, these bolts ensure reliability and strength. They are Ideal for indoor and outdoor use and are resistant to wear and corrosion, making them a versatile choice for construction and engineering projects. Our carriage bolts are crafted with precision, offering consistent quality and performance. Standards: Dimension Standard: DIN 603 Material & Mechanical Properties: Class 8.8 as per IS: 1367 Thread Specification: ISO Metric 6g as per IS: 4218 Dimensions: Diameter: Up to 80mm (customizable upon request) Length: Up to 1000mm (customizable upon request) Finish: Black coating, providing extra durability and corrosion resistance",
         standards: ["Dimension Standard: DIN 603", "Material & Mechanical Properties: Class 8.8 as per IS: 1367", "Thread Specification: ISO Metric 6g as per IS: 4218"],
         dimensions: ["Diameter: Up to 80mm (customizable upon request)", "Length: Up to 1000mm (customizable upon request)", "Finish: Black coating, providing extra durability and corrosion resistance"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/grade-carriage-bolt-black-finish-din-603.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/grade-carriage-bolt-black-finish-din-603-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/grade-carriage-bolt-black-finish-din-603.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/grade-carriage-bolt-black-finish-din-603-chart-0.jpg"],
       },
       {
         name: "Bucket Bolt",
@@ -150,6 +160,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Eye Bolt",
@@ -160,6 +171,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Foundation Bolt",
@@ -170,6 +182,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "J Bolt",
@@ -180,6 +193,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "T Bolt",
@@ -190,6 +204,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "U Bolt",
@@ -200,6 +215,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
     ],
   },
@@ -228,6 +244,7 @@ export const categories = [
         standards: ["Conform to DIN6799 and IS 3075 specifications.", "Made from AISI 1070 / 70 C spring steel for durability and resilience."],
         dimensions: ["2.3mm to 24mm in diameter.", "Part Numbers: ECIR23, ECIR32, ECIR40, through to ECIR2400 for easy identification."],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/e-type-circlip-din6799-is-3075.jpg"],
+        charts: [],
       },
       {
         name: "External Circlip – DIN 471 / IS3075-1 (A-type)",
@@ -238,6 +255,7 @@ export const categories = [
         standards: ["Material: AISI 1070 / 70 C Spring Steel", "Conforming to DIN471 / IS 3075"],
         dimensions: ["Carbon (C): 0.70%", "Silicon (Si): 0.203%", "Manganese (Mn): 0.749%", "Phosphorus (P): 0.0209%", "Sulphur (S): 0.0045%", "Chromium (Cr): 0.0174%", "Molybdenum (Mo): 0.0021%", "Nickel (Ni): 0.0056%", "Aluminium (Al): 0.0012%", "Cobalt (Co): 0.0096%", "Copper (Cu): 0.0085%", "Niobium (Nb): 0.0040%", "Titanium (Ti): 0.00070%", "Vanadium (V): 0.00050%", "Tungsten (W): 0.0100%", "Lead (Pb): 0.0030%", "Tin (Sn): 0.00050%", "Boron (B): 0.00065%"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/external-circlip-din471-is3075-1-a-type.jpg"],
+        charts: [],
       },
       {
         name: "Internal Circlip – DIN 472 / IS3075-2 (B-type)",
@@ -248,6 +266,7 @@ export const categories = [
         standards: ["Material: AISI 1070 / 70 C Spring Steel", "Conforming to DIN472 / IS 3075-2"],
         dimensions: ["Carbon (C): 0.70%", "Silicon (Si): 0.203%", "Manganese (Mn): 0.749%", "Phosphorus (P): 0.0209%", "Sulphur (S): 0.0045%", "Chromium (Cr): 0.0174%", "Molybdenum (Mo): 0.0021%", "Nickel (Ni): 0.0056%", "Aluminium (Al): 0.0012%", "Cobalt (Co): 0.0096%", "Copper (Cu): 0.0085%", "Niobium (Nb): 0.0040%", "Titanium (Ti): 0.00070%", "Vanadium (V): 0.00050%", "Tungsten (W): 0.0100%", "Lead (Pb): 0.0030%", "Tin (Sn): 0.00050%", "Boron (B): 0.00065%", "Iron (Fe): 98.3%"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/internal-circlip-din472-is3075-2-b-type.jpg"],
+        charts: [],
       },
       {
         name: "Split Pin",
@@ -257,7 +276,8 @@ export const categories = [
         longDescription: "Our Split Pins are precision-engineered for secure and reliable fastening in a variety of applications. These pins, available in sizes ranging from 1/16″ to 3/8″ or 2mm to 10mm, are ideal for preventing the loosening of nuts and bolts under vibration or torque. Their versatile design makes them suitable for automotive, mechanical, and structural uses, offering an easy yet effective solution for both temporary and permanent assembly. They are simple to install and remove, ensuring convenience in maintenance and adjustments. Standards: Specific standards for the Split Pins will be detailed upon request. Dimensions: Available Sizes: 1/16″ to 3/8″ or 2mm to 10mm. Custom sizes and Dimension & Weights are available upon request.",
         standards: ["Specific standards for the Split Pins will be detailed upon request."],
         dimensions: ["Available Sizes: 1/16″ to 3/8″ or 2mm to 10mm.", "Custom sizes and Dimension & Weights are available upon request."],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/split-pin.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/split-pin-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/split-pin.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/split-pin-chart-0.jpg"],
       },
       {
         name: "Spring Dowel Pins – ISO 8752",
@@ -268,6 +288,7 @@ export const categories = [
         standards: ["Manufactured according to ISO 8752 specifications.", "Made from high-quality AISI 1070 / 70C material."],
         dimensions: ["Length options: 12mm to 100mm.", "Diameter options: 1.5mm to 12mm."],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/spring-dowel-pins-iso-8752.jpg"],
+        charts: [],
       },
       {
         name: "Solid Dowel Pin",
@@ -278,6 +299,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
     ],
   },
@@ -306,6 +328,7 @@ export const categories = [
         standards: ["Specifications: Conforming to EN14399.", "Nut: As per IS6623.", "Washer: In accordance with IS6649.", "Direct Tension Washer: Complies with BS EN 14399-9.", "Nut Thread: As per 6h (IS4218).", "Material & Mechanical Properties: Property class 8, with a 5% surcharge for 10.9 grade."],
         dimensions: ["M16 (Part No. DTI16): 100 pieces.", "M20 (Part No. DTI20): 100 pieces.", "M22 (Part No. DTI22): 100 pieces.", "M24 (Part No. DTI24): 100 pieces.", "M27 (Part No. DTI27): 100 pieces.", "M30 (Part No. DTI30): 100 pieces.", "M36 (Part No. DTI36): 100 pieces."],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/direct-tension-indicator.jpg"],
+        charts: [],
       },
       {
         name: "Heavy Hex Heavy Nuts",
@@ -315,7 +338,8 @@ export const categories = [
         longDescription: "Our Heavy Hex Heavy Nuts are engineered for superior performance in challenging structural applications. These nuts are specifically designed to work seamlessly with our range of Heavy Hex Structural Bolts, ensuring a secure and reliable connection in a variety of construction projects. Dimensions: M16 (Part No. 6915816): 100 pieces. M20 (Part No. 6915820): 100 pieces. M22 (Part No. 6915822): 100 pieces. M24 (Part No. 6915824): 100 pieces. M27 (Part No. 6915827): 100 pieces. M30 (Part No. 6915830): 100 pieces. M36 (Part No. 6915836): 100 pieces.",
         standards: [],
         dimensions: ["M16 (Part No. 6915816): 100 pieces.", "M20 (Part No. 6915820): 100 pieces.", "M22 (Part No. 6915822): 100 pieces.", "M24 (Part No. 6915824): 100 pieces.", "M27 (Part No. 6915827): 100 pieces.", "M30 (Part No. 6915830): 100 pieces.", "M36 (Part No. 6915836): 100 pieces."],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/heavy-hex-heavy-nuts.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/heavy-hex-heavy-nuts-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/heavy-hex-heavy-nuts.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/heavy-hex-heavy-nuts-chart-0.jpg"],
       },
       {
         name: "Heavy Hex Structural Bolts",
@@ -325,7 +349,8 @@ export const categories = [
         longDescription: "Our Heavy Hex Structural Bolts are engineered for superior performance in structural applications. Ideal for heavy construction and infrastructure projects, these bolts provide robust fastening solutions for various structural connections. Each bolt is designed to withstand high tension and shear forces, ensuring stability and security in structural joints. Standards: Specifications: Conforming to IS3757/EN14399 standards, ensuring high-quality and reliability. Thread Standards: Made according to 6g (IS4218) thread standards. Material & Mechanical Properties: Manufactured from high-grade material, conforming to property class 8. An additional 5% surcharge is applicable for 10.9 grade bolts. Dimensions: Diameter M16: Length range from 40mm to 130mm Diameter M20: Length range from 40mm to 160mm Diameter M22: Length range from 50mm to 170mm Diameter M24: Length range from 60mm to 200mm Diameter M27: Length range from 70mm to 200mm Diameter M30: Length range from 75mm to 200mm Diameter M36: Length range from 90mm to 200mm",
         standards: ["Specifications: Conforming to IS3757/EN14399 standards, ensuring high-quality and reliability.", "Thread Standards: Made according to 6g (IS4218) thread standards.", "Material & Mechanical Properties: Manufactured from high-grade material, conforming to property class 8. An additional 5% surcharge is applicable for 10.9 grade bolts."],
         dimensions: ["Diameter M16: Length range from 40mm to 130mm", "Diameter M20: Length range from 40mm to 160mm", "Diameter M22: Length range from 50mm to 170mm", "Diameter M24: Length range from 60mm to 200mm", "Diameter M27: Length range from 70mm to 200mm", "Diameter M30: Length range from 75mm to 200mm", "Diameter M36: Length range from 90mm to 200mm"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/heavy-hex-structural-bolts.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/heavy-hex-structural-bolts-chart-0.png"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/heavy-hex-structural-bolts.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/heavy-hex-structural-bolts-chart-0.png"],
       },
       {
         name: "Structural Washer",
@@ -335,7 +360,8 @@ export const categories = [
         longDescription: "Our Structural Washers are integral components for securing heavy-duty bolted joints, especially in construction and structural applications. These washers distribute the load evenly, preventing damage to the surface and ensuring consistent pressure across the joint. They are ideal for use with our range of structural bolts and nuts, providing enhanced stability and support in your construction projects. Dimensions: M16 (Part No. 691616): 100 pieces. M20 (Part No. 691620): 100 pieces. M22 (Part No. 691622): 100 pieces. M24 (Part No. 691624): 100 pieces. M27 (Part No. 691627): 100 pieces. M30 (Part No. 691630): 100 pieces. M36 (Part No. 691636): 100 pieces.",
         standards: [],
         dimensions: ["M16 (Part No. 691616): 100 pieces.", "M20 (Part No. 691620): 100 pieces.", "M22 (Part No. 691622): 100 pieces.", "M24 (Part No. 691624): 100 pieces.", "M27 (Part No. 691627): 100 pieces.", "M30 (Part No. 691630): 100 pieces.", "M36 (Part No. 691636): 100 pieces."],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/structural-washer-product-page.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/structural-washer-product-page-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/structural-washer-product-page.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/structural-washer-product-page-chart-0.jpg"],
       },
     ],
   },
@@ -364,6 +390,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/lockbolt-collar.jpg"],
+        charts: [],
       },
     ],
   },
@@ -391,7 +418,8 @@ export const categories = [
         longDescription: "Our Cage Nuts, finished with White Zinc Plating (WZP), are versatile and reliable fasteners, ideal for various applications where a floating nut is required. The unique cage design allows for easy insertion and secure attachment in square holes, commonly used in rack mount systems, server enclosures, and other electronic equipment. These nuts are perfect for frequent disassembly and reassembly, offering ease of use without compromising on strength. The WZP finish enhances their durability, providing excellent corrosion resistance and ensuring long-term performance in a range of environments. Dimensions: Available Sizes and Part Numbers: M4 (Part No. CNM4) M5 (Part No. CNM5) M6 (Part No. CNM6) M8 (Part No. CNM8) M10 (Part No. CNM10) M4 (Part No. CNM4) M5 (Part No. CNM5) M6 (Part No. CNM6) M8 (Part No. CNM8) M10 (Part No. CNM10) Quantity Per Carton: M4: 8000 pcs M5: 8000 pcs M6: 6000 pcs M8: 2500 pcs M10: 2500 pcs M4: 8000 pcs M5: 8000 pcs M6: 6000 pcs M8: 2500 pcs M10: 2500 pcs",
         standards: [],
         dimensions: ["Available Sizes and Part Numbers: M4 (Part No. CNM4) M5 (Part No. CNM5) M6 (Part No. CNM6) M8 (Part No. CNM8) M10 (Part No. CNM10)", "M4 (Part No. CNM4)", "M5 (Part No. CNM5)", "M6 (Part No. CNM6)", "M8 (Part No. CNM8)", "M10 (Part No. CNM10)", "Quantity Per Carton: M4: 8000 pcs M5: 8000 pcs M6: 6000 pcs M8: 2500 pcs M10: 2500 pcs", "M4: 8000 pcs", "M5: 8000 pcs", "M6: 6000 pcs", "M8: 2500 pcs", "M10: 2500 pcs"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/cage-nut-white-zinc-plated-wzp.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/cage-nut-white-zinc-plated-wzp-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/cage-nut-white-zinc-plated-wzp.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/cage-nut-white-zinc-plated-wzp-chart-0.jpg"],
       },
       {
         name: "D Nut – Golden Zinc Plating",
@@ -401,7 +429,8 @@ export const categories = [
         longDescription: "Our D Nuts, finished with a striking Golden Zinc Plating, offer both aesthetic appeal and robust performance. These nuts are designed for secure and reliable fastening in various applications, including furniture assembly, interior design, and other decorative installations. The golden zinc plating enhances their visual appeal and provides additional corrosion resistance, making them suitable for indoor and outdoor use. The unique ‘D’ shape of these nuts allows for easy insertion into pre-drilled holes, ensuring a snug and stable fit. Standards: Finish: Golden Zinc Plating Dimensions: Sizes and Carton Quantities: 6×13 (Part No. DN613) – 6,000 pcs/carton 6×16 (Part No. DN616) – 6,000 pcs/carton 6×20 (Part No. DN620) – 6,000 pcs/carton 8×15 (Part No. DN815) – 4,000 pcs/carton 8×20 (Part No. DN820) – 4,000 pcs/carton 6×13 (Part No. DN613) – 6,000 pcs/carton 6×16 (Part No. DN616) – 6,000 pcs/carton 6×20 (Part No. DN620) – 6,000 pcs/carton 8×15 (Part No. DN815) – 4,000 pcs/carton 8×20 (Part No. DN820) – 4,000 pcs/carton",
         standards: ["Finish: Golden Zinc Plating"],
         dimensions: ["Sizes and Carton Quantities: 6×13 (Part No. DN613) – 6,000 pcs/carton 6×16 (Part No. DN616) – 6,000 pcs/carton 6×20 (Part No. DN620) – 6,000 pcs/carton 8×15 (Part No. DN815) – 4,000 pcs/carton 8×20 (Part No. DN820) – 4,000 pcs/carton", "6×13 (Part No. DN613) – 6,000 pcs/carton", "6×16 (Part No. DN616) – 6,000 pcs/carton", "6×20 (Part No. DN620) – 6,000 pcs/carton", "8×15 (Part No. DN815) – 4,000 pcs/carton", "8×20 (Part No. DN820) – 4,000 pcs/carton"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/d-nut-golden-zinc-plating.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/d-nut-golden-zinc-plating-chart-0.png"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/d-nut-golden-zinc-plating.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/d-nut-golden-zinc-plating-chart-0.png"],
       },
       {
         name: "Dome Nuts – DIN 1587 – White Zinc Plated (WZP)",
@@ -411,7 +440,8 @@ export const categories = [
         longDescription: "Our Dome Nuts, adhering to the DIN1587 standard and finished with White Zinc Plating (WZP), offer aesthetic appeal and functional strength. These nuts are characterized by their dome-shaped top, which not only provides a smooth and safe finish but also protects the threads from external factors. Ideal for applications where external threads must be concealed for safety or aesthetics, these nuts are widely used in furniture making, automotive, and architectural projects. Their corrosion-resistant WZP finish makes them suitable for both indoor and outdoor use, ensuring durability and longevity in various environments. Standards: Standard Compliance: DIN 1587 Finish: White Zinc Plated (WZP) Dimensions: Size Range: M3 (Part No. 15873) M4 (Part No. 15874) M5 (Part No. 15875) M6 (Part No. 15876) M8 (Part No. 15878) M10 (Part No. 158710) M12 (Part No. 158712) M14 (Part No. 158714) M16 (Part No. 158716) M20 (Part No. 158720) M24 (Part No. 158724) M3 (Part No. 15873) M4 (Part No. 15874) M5 (Part No. 15875) M6 (Part No. 15876) M8 (Part No. 15878) M10 (Part No. 158710) M12 (Part No. 158712) M14 (Part No. 158714) M16 (Part No. 158716) M20 (Part No. 158720) M24 (Part No. 158724) Quantity Per Carton: Specified quantities for each size available in the document Specified quantities for each size available in the document",
         standards: ["Standard Compliance: DIN 1587", "Finish: White Zinc Plated (WZP)"],
         dimensions: ["Size Range: M3 (Part No. 15873) M4 (Part No. 15874) M5 (Part No. 15875) M6 (Part No. 15876) M8 (Part No. 15878) M10 (Part No. 158710) M12 (Part No. 158712) M14 (Part No. 158714) M16 (Part No. 158716) M20 (Part No. 158720) M24 (Part No. 158724)", "M3 (Part No. 15873)", "M4 (Part No. 15874)", "M5 (Part No. 15875)", "M6 (Part No. 15876)", "M8 (Part No. 15878)", "M10 (Part No. 158710)", "M12 (Part No. 158712)", "M14 (Part No. 158714)", "M16 (Part No. 158716)", "M20 (Part No. 158720)", "M24 (Part No. 158724)", "Quantity Per Carton: Specified quantities for each size available in the document", "Specified quantities for each size available in the document"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/dome-nuts-din1587-white-zinc-plated-wzp.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/dome-nuts-din1587-white-zinc-plated-wzp-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/dome-nuts-din1587-white-zinc-plated-wzp.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/dome-nuts-din1587-white-zinc-plated-wzp-chart-0.jpg"],
       },
       {
         name: "Dome Nuts – Inch Series – White Zinc Plated (WZP)",
@@ -422,6 +452,7 @@ export const categories = [
         standards: ["Finish : White Zinc Plated (WZP)"],
         dimensions: ["Size Range: 3/16″ (Part No. DOM316) 1/4″ (Part No. DOM14) 5/16″ (Part No. DOM516) 3/8″ (Part No. DOM38) 1/2″ (Part No. DOM12) 5/8″ (Part No. DOM58)", "3/16″ (Part No. DOM316)", "1/4″ (Part No. DOM14)", "5/16″ (Part No. DOM516)", "3/8″ (Part No. DOM38)", "1/2″ (Part No. DOM12)", "5/8″ (Part No. DOM58)", "Quantity Per Carton: Specified quantities for each size are available in the document", "Specified quantities for each size are available in the document"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/dome-nuts-inch-series-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Flange Nuts – DIN 6923 – Self Finish / WZP",
@@ -431,7 +462,8 @@ export const categories = [
         longDescription: "Our Flange Nuts, complying with DIN6923 standards, offer a combination of strength, reliability, and versatility. These nuts come with a distinctive flange at one end, which acts as an integrated, non-spinning washer. This unique design distributes the pressure of the nut over the part being secured, reducing the chance of damage and providing a vibration-resistant hold. Available in both Self Finish and White Zinc Plated (WZP) options, they are perfect for a variety of applications, including machinery manufacturing, automotive assembly, and construction projects. The variety in sizes and grades caters to different requirements, making them a versatile choice for fastening needs. Standards: Standard Compliance: DIN 6923 Available Finishes: Self Finish and White Zinc Plated (WZP) Additional Options: BS & ASTM series available on request Electro zinc plating available at an additional 7% cost Grade 8/10 also available BS & ASTM series available on request Electro zinc plating available at an additional 7% cost Grade 8/10 also available Dimensions: Size Range & Types: M4 (Part No. 69234) M5 (Part No. 69235) M6 (Part No. 69236) M8 (12A/F, Part No. 6923812AF and 13A/F, Part No. 6923813AF) M10 (14A/F, Part No. 69231014AF and 15A/F, Part No. 69231015AF) M12 (18A/F, Part No. 69231218AF) M16 (Part No. 692316) M20 (Part No. 692320) M4 (Part No. 69234) M5 (Part No. 69235) M6 (Part No. 69236) M8 (12A/F, Part No. 6923812AF and 13A/F, Part No. 6923813AF) M10 (14A/F, Part No. 69231014AF and 15A/F, Part No. 69231015AF) M12 (18A/F, Part No. 69231218AF) M16 (Part No. 692316) M20 (Part No. 692320) Quantity Per Carton: Specified quantities for each size category in the document Specified quantities for each size category in the document",
         standards: ["Standard Compliance: DIN 6923", "Available Finishes: Self Finish and White Zinc Plated (WZP)", "Additional Options: BS & ASTM series available on request Electro zinc plating available at an additional 7% cost Grade 8/10 also available", "BS & ASTM series available on request", "Electro zinc plating available at an additional 7% cost", "Grade 8/10 also available"],
         dimensions: ["Size Range & Types: M4 (Part No. 69234) M5 (Part No. 69235) M6 (Part No. 69236) M8 (12A/F, Part No. 6923812AF and 13A/F, Part No. 6923813AF) M10 (14A/F, Part No. 69231014AF and 15A/F, Part No. 69231015AF) M12 (18A/F, Part No. 69231218AF) M16 (Part No. 692316) M20 (Part No. 692320)", "M4 (Part No. 69234)", "M5 (Part No. 69235)", "M6 (Part No. 69236)", "M8 (12A/F, Part No. 6923812AF and 13A/F, Part No. 6923813AF)", "M10 (14A/F, Part No. 69231014AF and 15A/F, Part No. 69231015AF)", "M12 (18A/F, Part No. 69231218AF)", "M16 (Part No. 692316)", "M20 (Part No. 692320)", "Quantity Per Carton: Specified quantities for each size category in the document", "Specified quantities for each size category in the document"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/flange-nuts-din6923-self-finish-wzp.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/flange-nuts-din6923-self-finish-wzp-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/flange-nuts-din6923-self-finish-wzp.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/flange-nuts-din6923-self-finish-wzp-chart-0.jpg"],
       },
       {
         name: "Flange Nylock – DIN 6926 – White Zinc Plated (WZP)",
@@ -441,7 +473,8 @@ export const categories = [
         longDescription: "Our Flange Nylock nuts, conforming to DIN 6926 standards, offer a unique blend of durability and locking capability thanks to their White Zinc Plated (WZP) finish. These nuts feature a built-in flange and nylon insert, which provide a secure, vibration-resistant lock. Ideal for applications where a stable, long-lasting connection is crucial, they are suited for automotive, machinery, and construction uses. The WZP finish enhances corrosion resistance, ensuring longevity in various environments. The flange design distributes load pressure more evenly, reducing the chance of damage to the surface being fastened. Standards: Standard: DIN 6926 Finish: White Zinc Plated (WZP) Dimensions: Size and Part Numbers: M5 (Part No. 69265) M6 (Part No. 69266) M8 (Part No. 69268) M10 (Part No. 692610) M12 (Part No. 692612) M5 (Part No. 69265) M6 (Part No. 69266) M8 (Part No. 69268) M10 (Part No. 692610) M12 (Part No. 692612) Quantity Per Carton: M5: 8000 pcs M6: 6000 pcs M8: 3000 pcs M10: 1800 pcs M12: 1000 pcs M5: 8000 pcs M6: 6000 pcs M8: 3000 pcs M10: 1800 pcs M12: 1000 pcs",
         standards: ["Standard: DIN 6926", "Finish: White Zinc Plated (WZP)"],
         dimensions: ["Size and Part Numbers: M5 (Part No. 69265) M6 (Part No. 69266) M8 (Part No. 69268) M10 (Part No. 692610) M12 (Part No. 692612)", "M5 (Part No. 69265)", "M6 (Part No. 69266)", "M8 (Part No. 69268)", "M10 (Part No. 692610)", "M12 (Part No. 692612)", "Quantity Per Carton: M5: 8000 pcs M6: 6000 pcs M8: 3000 pcs M10: 1800 pcs M12: 1000 pcs", "M5: 8000 pcs", "M6: 6000 pcs", "M8: 3000 pcs", "M10: 1800 pcs", "M12: 1000 pcs"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/flange-nylock-din-6926-white-zinc-plated-wzp.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/flange-nylock-din-6926-white-zinc-plated-wzp-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/flange-nylock-din-6926-white-zinc-plated-wzp.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/flange-nylock-din-6926-white-zinc-plated-wzp-chart-0.jpg"],
       },
       {
         name: "Hex Nuts 8 Grade – Black Finish (DIN 934 / IS 1364 [1967])",
@@ -451,7 +484,8 @@ export const categories = [
         longDescription: "Our Hex Nuts 8 Grade in black finish is engineered to meet DIN 934 and IS 1364 (1967) standards, epitomizing strength and precision. These nuts, designed for versatile industrial applications, boast a robust structure and are crafted to withstand demanding environments. The detailed range of sizes and customization options cater to a broad spectrum of requirements, ensuring compatibility with various bolt sizes. The black finish adds to their durability and enhances their corrosion resistance, making them ideal for long-term use in diverse settings. Standards: Dimensional Standard: IS 1364 (1967) and DIN 934 Material & Mechanical Properties: Class 8 as per IS 1367 / ISO 898-2 Thread Specification: ISO Metric 6H as per IS 4218 Dimensions: Diameter Range: M3 to M64, with additional sizes up to M100 available upon request Part Numbers & Pricing: Specified in the product table for different sizes Carton Quantity: Mentioned alongside each size for bulk order consideration",
         standards: ["Dimensional Standard: IS 1364 (1967) and DIN 934", "Material & Mechanical Properties: Class 8 as per IS 1367 / ISO 898-2", "Thread Specification: ISO Metric 6H as per IS 4218"],
         dimensions: ["Diameter Range: M3 to M64, with additional sizes up to M100 available upon request", "Part Numbers & Pricing: Specified in the product table for different sizes", "Carton Quantity: Mentioned alongside each size for bulk order consideration"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-nuts-8-grade-black-finish-din-934-is-1364-1967.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/hex-nuts-8-grade-black-finish-din-934-is-1364-1967-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-nuts-8-grade-black-finish-din-934-is-1364-1967.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-nuts-8-grade-black-finish-din-934-is-1364-1967-chart-0.jpg"],
       },
       {
         name: "Hex Weld Nuts – DIN 929 – Self Finish",
@@ -461,7 +495,8 @@ export const categories = [
         longDescription: "Our Hex Weld Nuts, complying with the DIN929 standard, are expertly crafted for robust applications where welding is required. These self-finished nuts are designed for seamless integration with the workpiece, providing excellent load distribution due to their hexagonal shape. Ideal for use in automotive, construction, and heavy machinery, these weld nuts ensure a robust and permanent connection. The range includes various sizes to accommodate diverse requirements, making them versatile for industrial welding needs. Standards: Standard Compliance: DIN 929 Finish: Self-finished, optimized for welding applications Dimensions: Size Range: M4 to M12 Quantity per Carton: M4: 50,000 pcs M5: 25,000 pcs M6: 10,000 pcs M8: 5,000 pcs M10: 2,500 pcs M12: 1,500 pcs M4: 50,000 pcs M5: 25,000 pcs M6: 10,000 pcs M8: 5,000 pcs M10: 2,500 pcs M12: 1,500 pcs Part Numbers: Specified for easy reference and ordering",
         standards: ["Standard Compliance: DIN 929", "Finish: Self-finished, optimized for welding applications"],
         dimensions: ["Size Range: M4 to M12", "Quantity per Carton: M4: 50,000 pcs M5: 25,000 pcs M6: 10,000 pcs M8: 5,000 pcs M10: 2,500 pcs M12: 1,500 pcs", "M4: 50,000 pcs", "M5: 25,000 pcs", "M6: 10,000 pcs", "M8: 5,000 pcs", "M10: 2,500 pcs", "M12: 1,500 pcs", "Part Numbers: Specified for easy reference and ordering"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-weld-nuts-din929-self-finish.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/hex-weld-nuts-din929-self-finish-chart-0.png"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-weld-nuts-din929-self-finish.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-weld-nuts-din929-self-finish-chart-0.png"],
       },
       {
         name: "Nylock nut BSW",
@@ -472,6 +507,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/nylock-nut-bsw.jpg"],
+        charts: [],
       },
       {
         name: "Nylon Cap Nut – DIN 986 – White Zinc Plated (WZP)",
@@ -482,6 +518,7 @@ export const categories = [
         standards: ["Standard: DIN 986", "Finish: White Zinc Plated (WZP)"],
         dimensions: ["Available Sizes and Quantities: M5 (Part No. 9865) – 16,000 pcs/carton M6 (Part No. 9866) – 7,500 pcs/carton M8 (Part No. 9868) – 4,800 pcs/carton M10 (Part No. 98610) – 2,500 pcs/carton", "M5 (Part No. 9865) – 16,000 pcs/carton", "M6 (Part No. 9866) – 7,500 pcs/carton", "M8 (Part No. 9868) – 4,800 pcs/carton", "M10 (Part No. 98610) – 2,500 pcs/carton"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/nylon-cap-nut-din-986-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Petal Nut – WZP",
@@ -492,6 +529,7 @@ export const categories = [
         standards: ["Finish: White Zinc Plating (WZP)"],
         dimensions: ["Sizes and Carton Quantities: M4 (Part No. JN4) – 10,000 pcs/carton M5 (Part No. JN5) – 8,000 pcs/carton M6 (Part No. JN6) – 6,000 pcs/carton M8 (Part No. JN8) – 4,000 pcs/carton", "M4 (Part No. JN4) – 10,000 pcs/carton", "M5 (Part No. JN5) – 8,000 pcs/carton", "M6 (Part No. JN6) – 6,000 pcs/carton", "M8 (Part No. JN8) – 4,000 pcs/carton"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/petal-nut-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Prevailing Torque Lock Nut – White Zinc Plated (WZP) DIN 980 Grade 8/10",
@@ -501,7 +539,8 @@ export const categories = [
         longDescription: "Our Prevailing Torque Lock Nuts, conforming to DIN 980 standards in Grade 8/10, are coated with White Zinc Plating (WZP) for enhanced corrosion resistance. These nuts are designed to prevent loosening under vibration and torque, making them ideal for high-stress applications. The unique design of these lock nuts provides a consistent and reusable locking force, ensuring reliability in securing mechanical connections. They are perfect for automotive, machinery, and construction industries where secure and durable fastening is crucial. Standards: Standard: DIN 980, Grade 8/10 Finish: White Zinc Plated (WZP) Dimensions: Available Sizes: M6 X 1 (Part No. PTLM6) M8 X 1.25 (Part No. PTLM8) M10 X 1.25/1.5 (Part No. PTLM10) M12 X 1.25/1.5/1.75 (Part No. PTLM12) M14 X 1.5/2 (Part No. PTLM14) M16 X 2 (Part No. PTLM16) M20 X 2.5 (Part No. PTLM20) M24 X 3 (Part No. PTLM24) M6 X 1 (Part No. PTLM6) M8 X 1.25 (Part No. PTLM8) M10 X 1.25/1.5 (Part No. PTLM10) M12 X 1.25/1.5/1.75 (Part No. PTLM12) M14 X 1.5/2 (Part No. PTLM14) M16 X 2 (Part No. PTLM16) M20 X 2.5 (Part No. PTLM20) M24 X 3 (Part No. PTLM24) Quantity Per Carton: 1000 pieces for each size",
         standards: ["Standard: DIN 980, Grade 8/10", "Finish: White Zinc Plated (WZP)"],
         dimensions: ["Available Sizes: M6 X 1 (Part No. PTLM6) M8 X 1.25 (Part No. PTLM8) M10 X 1.25/1.5 (Part No. PTLM10) M12 X 1.25/1.5/1.75 (Part No. PTLM12) M14 X 1.5/2 (Part No. PTLM14) M16 X 2 (Part No. PTLM16) M20 X 2.5 (Part No. PTLM20) M24 X 3 (Part No. PTLM24)", "M6 X 1 (Part No. PTLM6)", "M8 X 1.25 (Part No. PTLM8)", "M10 X 1.25/1.5 (Part No. PTLM10)", "M12 X 1.25/1.5/1.75 (Part No. PTLM12)", "M14 X 1.5/2 (Part No. PTLM14)", "M16 X 2 (Part No. PTLM16)", "M20 X 2.5 (Part No. PTLM20)", "M24 X 3 (Part No. PTLM24)", "Quantity Per Carton: 1000 pieces for each size"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/prevailing-torque-lock-nut-white-zinc-plated-wzp-din-980-grade-8-10-2.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/prevailing-torque-lock-nut-white-zinc-plated-wzp-din-980-grade-8-10-2-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/prevailing-torque-lock-nut-white-zinc-plated-wzp-din-980-grade-8-10-2.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/prevailing-torque-lock-nut-white-zinc-plated-wzp-din-980-grade-8-10-2-chart-0.jpg"],
       },
       {
         name: "Rivet Nut / Insert Nut (Flat Head, Full Hex Body) – White Zinc Plated (WZP)",
@@ -512,6 +551,7 @@ export const categories = [
         standards: ["Finish: White Zinc Plated (WZP)"],
         dimensions: ["Available Sizes and Part Numbers: M4 (Part No. FHFHB4) M5 (Part No. FHFHB5) M6 (Part No. FHFHB6) M8 (Part No. FHFHB8) M10 (Part No. FHFHB10)", "M4 (Part No. FHFHB4)", "M5 (Part No. FHFHB5)", "M6 (Part No. FHFHB6)", "M8 (Part No. FHFHB8)", "M10 (Part No. FHFHB10)", "Quantity Per Carton : M4: 16,000 pcs M5: 10,000 pcs M6: 6,000 pcs M8: 3,500 pcs M10: 2,400 pcs", "M4: 16,000 pcs", "M5: 10,000 pcs", "M6: 6,000 pcs", "M8: 3,500 pcs", "M10: 2,400 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/rivet-nut-insert-nut-flat-head-full-hex-body-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Rivet Nut / Insert Nut (Flat Head, Knurled Body) – White Zinc Plated (WZP)",
@@ -522,6 +562,7 @@ export const categories = [
         standards: ["Finish: White Zinc Plated (WZP)"],
         dimensions: ["Sizes and Part Numbers: M4 (Part No. FHKB4) M5 (Part No. FHKB5) M6 (Part No. FHKB6) M8 (Part No. FHKB8) M10 (Part No. FHKB10) M12 (Part No. FHKB12)", "M4 (Part No. FHKB4)", "M5 (Part No. FHKB5)", "M6 (Part No. FHKB6)", "M8 (Part No. FHKB8)", "M10 (Part No. FHKB10)", "M12 (Part No. FHKB12)", "Quantity Per Carton: M4: 20,000 pcs M5: 16,000 pcs M6: 7,000 pcs M8: 4,000 pcs M10: 3,000 pcs M12: 2,400 pcs", "M4: 20,000 pcs", "M5: 16,000 pcs", "M6: 7,000 pcs", "M8: 4,000 pcs", "M10: 3,000 pcs", "M12: 2,400 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/rivet-nut-insert-nut-flat-head-knurled-body-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Rivet Nut / Insert Nut (Flat Head, Semi-hex Body) – White Zinc Plated (WZP)",
@@ -532,6 +573,7 @@ export const categories = [
         standards: ["Finish: White Zinc Plated (WZP)"],
         dimensions: ["Sizes and Part Numbers: M4 (Part No. FHSHB4) M5 (Part No. FHSHB5) M6 (Part No. FHSHB6) M8 (Part No. FHSHB8) M10 (Part No. FHSHB10)", "M4 (Part No. FHSHB4)", "M5 (Part No. FHSHB5)", "M6 (Part No. FHSHB6)", "M8 (Part No. FHSHB8)", "M10 (Part No. FHSHB10)", "Quantity Per Carton: M4: 20,000 pcs M5: 9,000 pcs M6: 6,000 pcs M8: 4,000 pcs M10: 2,700 pcs", "M4: 20,000 pcs", "M5: 9,000 pcs", "M6: 6,000 pcs", "M8: 4,000 pcs", "M10: 2,700 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/rivet-nut-insert-nut-flat-head-semi-hex-body-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Rivet Nut / Insert Nut (Reduced Head, Knurled Body) – White Zinc Plated (WZP)",
@@ -542,6 +584,7 @@ export const categories = [
         standards: ["Finish: White Zinc Plated (WZP)"],
         dimensions: ["Finish: White Zinc Plated (WZP)"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/rivet-nut-insert-nut-reduced-head-knurled-body-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Self-clinching Nut – White Zinc Plated (WZP)",
@@ -551,7 +594,8 @@ export const categories = [
         longDescription: "Our range of White Zinc Plated (WZP) Self-Clinching Nuts provide a sturdy and reliable method for inserting threaded nuts into thin metal sheets. Ideal for applications where spot welding is not feasible, these nuts offer a secure and permanent attachment. With their self-clinching design, they are pressed into a pre-drilled or punched hole, where they clinch firmly into place, providing a strong thread for screw insertion. These nuts are perfect for providing load-bearing threads in thin sheets and are widely used in various industries for their ease of installation and long-lasting strength. Standards: Finish: White Zinc Plated (WZP) Dimensions: Available Sizes and Part Numbers: M3 (Part No. SCN3) M4 (Part No. SCN4) M5 (Part No. SCN5) M6 (Part No. SCN6) M8 (Part No. SCN8) M10 (Part No. SCN10) M3 (Part No. SCN3) M4 (Part No. SCN4) M5 (Part No. SCN5) M6 (Part No. SCN6) M8 (Part No. SCN8) M10 (Part No. SCN10) Quantity Per Carton: M3: 60,000 pcs M4: 35,000 pcs M5: 30,000 pcs M6: 8,000 pcs M8: 6,000 pcs M10: 2,000 pcs M3: 60,000 pcs M4: 35,000 pcs M5: 30,000 pcs M6: 8,000 pcs M8: 6,000 pcs M10: 2,000 pcs",
         standards: ["Finish: White Zinc Plated (WZP)"],
         dimensions: ["Available Sizes and Part Numbers: M3 (Part No. SCN3) M4 (Part No. SCN4) M5 (Part No. SCN5) M6 (Part No. SCN6) M8 (Part No. SCN8) M10 (Part No. SCN10)", "M3 (Part No. SCN3)", "M4 (Part No. SCN4)", "M5 (Part No. SCN5)", "M6 (Part No. SCN6)", "M8 (Part No. SCN8)", "M10 (Part No. SCN10)", "Quantity Per Carton: M3: 60,000 pcs M4: 35,000 pcs M5: 30,000 pcs M6: 8,000 pcs M8: 6,000 pcs M10: 2,000 pcs", "M3: 60,000 pcs", "M4: 35,000 pcs", "M5: 30,000 pcs", "M6: 8,000 pcs", "M8: 6,000 pcs", "M10: 2,000 pcs"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/self-clinching-nut-white-zinc-plated-wzp.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/self-clinching-nut-white-zinc-plated-wzp-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/self-clinching-nut-white-zinc-plated-wzp.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/self-clinching-nut-white-zinc-plated-wzp-chart-0.jpg"],
       },
       {
         name: "Spring Nut – White Zinc Plated (WZP)",
@@ -562,6 +606,7 @@ export const categories = [
         standards: ["Finish: White Zinc Plated (WZP)"],
         dimensions: ["Finish: White Zinc Plated (WZP)"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/spring-nut-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Square Weld Nuts – DIN 928 – Self Finish",
@@ -571,7 +616,8 @@ export const categories = [
         longDescription: "Our Square Weld Nuts, compliant with DIN928 standards, are engineered for robust and reliable welding applications. The self-finished, square-shaped design of these nuts provides enhanced torque resistance and a larger surface area for welding, ensuring a solid and dependable joint. These nuts are ideal for various applications, including automotive assembly, metal fabrication, and machinery manufacturing. Their distinct shape makes them particularly suitable for areas where space constraints or specific alignment requirements are a factor, offering a robust solution for various fastening challenges. Standards: Standard Compliance: DIN 928 Finish: Self Finish, optimized for welding applications Application Areas: Particularly suited for industries where secure welding is essential, and alignment and space utilization are crucial Dimensions: M4 (Part No. SWN4) M5 (Part No. SWN5) M6 (Part No. SWN6) M8 (Part No. SWN8) M10 (Part No. SWN10) M12 (Part No. SWN12) M4: 50,000 pcs M5: 25,000 pcs M6: 10,000 pcs M8: 5,000 pcs M10: 2,500 pcs M12: 1,500 pcs ",
         standards: ["Standard Compliance: DIN 928", "Finish: Self Finish, optimized for welding applications", "Application Areas: Particularly suited for industries where secure welding is essential, and alignment and space utilization are crucial"],
         dimensions: ["M4 (Part No. SWN4)", "M5 (Part No. SWN5)", "M6 (Part No. SWN6)", "M8 (Part No. SWN8)", "M10 (Part No. SWN10)", "M12 (Part No. SWN12)", "M4: 50,000 pcs", "M5: 25,000 pcs", "M6: 10,000 pcs", "M8: 5,000 pcs", "M10: 2,500 pcs", "M12: 1,500 pcs", ""],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/square-weld-nuts-din928-self-finish.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/square-weld-nuts-din928-self-finish-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/square-weld-nuts-din928-self-finish.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/square-weld-nuts-din928-self-finish-chart-0.jpg"],
       },
       {
         name: "Steel Insert Flange Lock Nut / Metal Prevailing Torque Nut – White Zinc Plated (WZP)",
@@ -582,6 +628,7 @@ export const categories = [
         standards: [],
         dimensions: ["Available Sizes and Part Numbers: M5 (Part No. 69275) M6 (Part No. 69276) M8 (Part No. 69278) M10 (Part No. 692710) M12 (Part No. 692712) M14 (Part No. 692714) M16 (Part No. 692716)", "M5 (Part No. 69275)", "M6 (Part No. 69276)", "M8 (Part No. 69278)", "M10 (Part No. 692710)", "M12 (Part No. 692712)", "M14 (Part No. 692714)", "M16 (Part No. 692716)", "Quantity Per Carton: M5: 14000 pcs M6: 7000 pcs M8: 4000 pcs M10: 2400 pcs M12: 1500 pcs M14: 1200 pcs M16: 1000 pcs", "M5: 14000 pcs", "M6: 7000 pcs", "M8: 4000 pcs", "M10: 2400 pcs", "M12: 1500 pcs", "M14: 1200 pcs", "M16: 1000 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/steel-insert-flange-lock-nut-metal-prevailing-torque-nut-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Tee Nut – DIN 1624 (Four Prong) – White Zinc Plated (WZP)",
@@ -591,7 +638,8 @@ export const categories = [
         longDescription: "Our DIN 1624 compliant Tee Nuts are four-pronged fasteners designed for robust and reliable insertion into materials like wood, particle board, and plastic. These nuts, featuring a White Zinc Plated (WZP) finish, offer enhanced durability and corrosion resistance. The four-prong design ensures a secure grip and easy installation, making them ideal for furniture assembly, woodworking, and DIY projects. Their versatile design allows for solid anchoring in various materials, ensuring stability and strength in your connections. Standards: Standard: DIN 1624 (Four Prong) Finish: White Zinc Plated (WZP) Additional Options: Long Length Tee Nuts: Available upon request Long Length Tee Nuts: Available upon request Dimensions: Size Range: M4 (Part No. 16244) M5 (Part No. 16245) M6 (Part No. 16246) M8 (Part No. 16248) M10 (Part No. 162410) M4 (Part No. 16244) M5 (Part No. 16245) M6 (Part No. 16246) M8 (Part No. 16248) M10 (Part No. 162410) Quantity Per Carton: Varied quantities for each size (e.g., 10000 pcs for M4) Varied quantities for each size (e.g., 10000 pcs for M4)",
         standards: ["Standard: DIN 1624 (Four Prong)", "Finish: White Zinc Plated (WZP)", "Additional Options: Long Length Tee Nuts: Available upon request", "Long Length Tee Nuts: Available upon request"],
         dimensions: ["Size Range: M4 (Part No. 16244) M5 (Part No. 16245) M6 (Part No. 16246) M8 (Part No. 16248) M10 (Part No. 162410)", "M4 (Part No. 16244)", "M5 (Part No. 16245)", "M6 (Part No. 16246)", "M8 (Part No. 16248)", "M10 (Part No. 162410)", "Quantity Per Carton: Varied quantities for each size (e.g., 10000 pcs for M4)", "Varied quantities for each size (e.g., 10000 pcs for M4)"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/tee-nut-din-1624-four-prong-white-zinc-plated-wzp.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/tee-nut-din-1624-four-prong-white-zinc-plated-wzp-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/tee-nut-din-1624-four-prong-white-zinc-plated-wzp.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/tee-nut-din-1624-four-prong-white-zinc-plated-wzp-chart-0.jpg"],
       },
       {
         name: "Wing Nut – DIN 315 – White Zinc Plated (WZP)",
@@ -602,6 +650,7 @@ export const categories = [
         standards: ["Standard: DIN 315", "Finish: White Zinc Plated (WZP)"],
         dimensions: ["Available Sizes and Part Numbers: M3 (Part No. 3153) M4 (Part No. 3154) M5 (Part No. 3155) M6 (Part No. 3156) M8 (Part No. 3158) M10 (Part No. 31510) M12 (Part No. 31512) M14 (Part No. 31514) M16 (Part No. 31516)", "M3 (Part No. 3153)", "M4 (Part No. 3154)", "M5 (Part No. 3155)", "M6 (Part No. 3156)", "M8 (Part No. 3158)", "M10 (Part No. 31510)", "M12 (Part No. 31512)", "M14 (Part No. 31514)", "M16 (Part No. 31516)", "Quantity Per Carton: M3: 10000 pcs M4: 8000 pcs M5: 8000 pcs M6: 6000 pcs M8: 4000 pcs M10: 2500 pcs M12: 1600 pcs M14: 1000 pcs M16: 900 pcs", "M3: 10000 pcs", "M4: 8000 pcs", "M5: 8000 pcs", "M6: 6000 pcs", "M8: 4000 pcs", "M10: 2500 pcs", "M12: 1600 pcs", "M14: 1000 pcs", "M16: 900 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/wing-nut-din-315-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Wing Nut – Inch Series (ASTM Standard) – White Zinc Plated (WZP)",
@@ -612,6 +661,7 @@ export const categories = [
         standards: ["Standard: ASTM", "Finish: White Zinc Plated (WZP)"],
         dimensions: ["Available Sizes and Part Numbers: 3/16″ UNC/BSW (Part No. WN187) 1/4″ UNC/BSW (Part No. WN250) 5/16″ UNC/BSW (Part No. WN312) 3/8″ UNC/BSW (Part No. WN375) 1/2″ UNC/BSW (Part No. WN500)", "3/16″ UNC/BSW (Part No. WN187)", "1/4″ UNC/BSW (Part No. WN250)", "5/16″ UNC/BSW (Part No. WN312)", "3/8″ UNC/BSW (Part No. WN375)", "1/2″ UNC/BSW (Part No. WN500)", "Quantity Per Carton: 3/16″: 8000 pcs 1/4″: 6000 pcs 5/16″: 4000 pcs 3/8″: 2500 pcs 1/2″: 1600 pcs", "3/16″: 8000 pcs", "1/4″: 6000 pcs", "5/16″: 4000 pcs", "3/8″: 2500 pcs", "1/2″: 1600 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/wing-nut-inch-series-astm-standard-white-zinc-plated-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Castle Nut",
@@ -622,6 +672,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "KM Nut",
@@ -632,6 +683,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "LH Nut",
@@ -642,6 +694,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Long Nut",
@@ -652,6 +705,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Slotted Nut",
@@ -662,6 +716,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Square Nut",
@@ -672,6 +727,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
     ],
   },
@@ -700,6 +756,7 @@ export const categories = [
         standards: ["Specification: ASTM A193/Grade B7", "Nut Specification: ASTM A194/Grade 2H"],
         dimensions: ["Diameter Range: M12 to M39", "Length Range: 50mm to 1 Meter"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/astm-a193-gr-b7-full-thread-stud-metric.jpg"],
+        charts: [],
       },
       {
         name: "Heavy Hex Nuts",
@@ -710,6 +767,7 @@ export const categories = [
         standards: ["Nut Specification: ASTM A194/Grade 2H"],
         dimensions: ["Inch Series: 3/8” to 1.1/2″", "Metric Series: M10 to M36"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/heavy-hex-nuts.jpg"],
+        charts: [],
       },
     ],
   },
@@ -738,6 +796,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/csk-flat-head-self-drilling-screw-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Drywall Screw",
@@ -747,7 +806,8 @@ export const categories = [
         longDescription: "Our Drywall Screws are specifically engineered to provide a secure and reliable hold in drywall installations. With their sharp points and consistent threads, they easily penetrate the drywall without damaging it, ensuring a smooth and efficient application. These screws are perfect for attaching drywall to wood or metal studs, offering exceptional grip and stability. Their design minimizes the risk of tearing the drywall’s paper surface, making them an ideal choice for both professional builders and DIY enthusiasts. The range of sizes available caters to various thicknesses and types of drywall, ensuring versatility for different project needs. Dimensions: 3.5 X 13mm (DRYWS3513, #6 X 13): Qty/Carton – 28000 pcs 3.5 X 16mm (DRYWS3516, #6 X 16): Qty/Carton – 25000 pcs 3.5 X 19mm (DRYWS3519, #6 X 19): Qty/Carton – 22000 pcs 3.5 X 25mm (DRYWS3525, #6 X 25): Qty/Carton – 18000 pcs 3.5 X 32mm (DRYWS3532, #6 X 32): Qty/Carton – 15000 pcs 3.5 X 38mm (DRYWS3538, #6 X 38): Qty/Carton – 12000 pcs 3.5 X 50mm (DRYWS3550, #6 X 50): Qty/Carton – 10000 pcs 3.5 X 60mm (DRYWS3560, #6 X 60): Qty/Carton – 8000 pcs 3.5 X 75mm (DRYWS3575, #6 X 75): Qty/Carton – 6000 pcs 4.2 X 25mm (DRYWS4225, #8 X 25): Qty/Carton – 12600 pcs 4.2 X 32mm (DRYWS4232, #8 X 32): Qty/Carton – 10200 pcs 4.2 X 38mm (DRYWS4238, #8 X 38): Qty/Carton – 9000 pcs 4.2 X 75mm (DRYWS4275, #8 X 75): Qty/Carton – 5000 pcs 4.2 X 100mm (DRYWS42100, #8 X 100): Qty/Carton – 3600 pcs",
         standards: [],
         dimensions: ["3.5 X 13mm (DRYWS3513, #6 X 13): Qty/Carton – 28000 pcs", "3.5 X 16mm (DRYWS3516, #6 X 16): Qty/Carton – 25000 pcs", "3.5 X 19mm (DRYWS3519, #6 X 19): Qty/Carton – 22000 pcs", "3.5 X 25mm (DRYWS3525, #6 X 25): Qty/Carton – 18000 pcs", "3.5 X 32mm (DRYWS3532, #6 X 32): Qty/Carton – 15000 pcs", "3.5 X 38mm (DRYWS3538, #6 X 38): Qty/Carton – 12000 pcs", "3.5 X 50mm (DRYWS3550, #6 X 50): Qty/Carton – 10000 pcs", "3.5 X 60mm (DRYWS3560, #6 X 60): Qty/Carton – 8000 pcs", "3.5 X 75mm (DRYWS3575, #6 X 75): Qty/Carton – 6000 pcs", "4.2 X 25mm (DRYWS4225, #8 X 25): Qty/Carton – 12600 pcs", "4.2 X 32mm (DRYWS4232, #8 X 32): Qty/Carton – 10200 pcs", "4.2 X 38mm (DRYWS4238, #8 X 38): Qty/Carton – 9000 pcs", "4.2 X 75mm (DRYWS4275, #8 X 75): Qty/Carton – 5000 pcs", "4.2 X 100mm (DRYWS42100, #8 X 100): Qty/Carton – 3600 pcs"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/drywall-screw.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/drywall-screw-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/drywall-screw.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/drywall-screw-chart-0.jpg"],
       },
       {
         name: "Hex Flange Head Self Drilling Screws – With Washer – Ruspert",
@@ -758,6 +818,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-flange-head-self-drilling-screws-with-washer-ruspert.jpg"],
+        charts: [],
       },
       {
         name: "Hex Flange Head Self Drilling Screws – With Washer – WZP",
@@ -768,6 +829,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-flange-head-self-drilling-screws-with-washer-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Hex Head Self Drilling Screws – With EPDM Washer – Ruspert",
@@ -778,6 +840,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-head-self-drilling-screws-with-epdm-washer-ruspert.jpg"],
+        charts: [],
       },
       {
         name: "Hex Head Self Drilling Screws – With Metal Bonded EPDM Washer WZP",
@@ -788,6 +851,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/hex-head-self-drilling-screws-with-metal-bonded-epdm-washer-wzp.jpg"],
+        charts: [],
       },
       {
         name: "Pan Head Self Drilling Screw",
@@ -798,6 +862,7 @@ export const categories = [
         standards: [],
         dimensions: ["3.5 X 19mm (PANSDS3519, #6 X 19): Carton Qty – 15600 pcs", "3.5 X 25mm (PANSDS3525, #6 X 25): Carton Qty – 14000 pcs", "4.2 X 13mm (PANSDS4213, #8 X 13): Carton Qty – 16000 pcs", "4.2 X 16mm (PANSDS4216, #8 X 16): Carton Qty – 14000 pcs", "4.2 X 19mm (PANSDS4219, #8 X 19): Carton Qty – 14000 pcs", "4.2 X 25mm (PANSDS4225, #8 X 25): Carton Qty – 12000 pcs", "4.2 X 32mm (PANSDS4232, #8 X 32): Carton Qty – 10000 pcs", "4.2 X 38mm (PANSDS4238, #8 X 38): Carton Qty – 6400 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/pan-head-self-drilling-screw.jpg"],
+        charts: [],
       },
       {
         name: "Truss Head Self Drilling Screw",
@@ -808,6 +873,7 @@ export const categories = [
         standards: [],
         dimensions: ["4.2 X 13mm (TRSSDS4213, #8 X 13): Qty/Carton – 14000 pcs", "4.2 X 16mm (TRSSDS4216, #8 X 16): Qty/Carton – 14000 pcs", "4.2 X 19mm (TRSSDS4219, #8 X 19): Qty/Carton – 12000 pcs", "4.2 X 25mm (TRSSDS4225, #8 X 25): Qty/Carton – 10000 pcs", "4.2 X 32mm (TRSSDS4232, #8 X 32): Qty/Carton – 7200 pcs", "4.2 X 38mm (TRSSDS4238, #8 X 38): Qty/Carton – 6200 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/truss-head-self-drilling-screw.jpg"],
+        charts: [],
       },
       {
         name: "Clipboard Screw",
@@ -818,6 +884,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Machine Screw",
@@ -828,6 +895,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Phillip Head Screw",
@@ -838,6 +906,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Self Tapping Screw",
@@ -848,6 +917,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Wood Screw",
@@ -858,6 +928,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
     ],
   },
@@ -885,7 +956,8 @@ export const categories = [
         longDescription: "Our ISO7380 Grade 10.9 Button Head Socket Screws are meticulously designed for high-strength, precision applications. These screws, known for their rounded head profile and internal hex drive, offer a clean, sleek appearance while providing solid fastening capabilities. They are ideal for applications where space is limited or where a flush surface finish is desired. Made from high-grade materials, these screws are perfect for use in mechanical, automotive, and construction industries. Standards: ISO7380 Grade 10.9: High tensile strength Dimensions: M4 (Wrench Key Size 2.5mm): Lengths from 4mm to 40mm. M5 (Wrench Key Size 3mm): Lengths from 6mm to 50mm. M6 (Wrench Key Size 4mm): Lengths from 8mm to 50mm. M8 (Wrench Key Size 5mm): Lengths from 10mm to 100mm. M10 (Wrench Key Size 6mm): Lengths from 16mm to 100mm. M12 (Wrench Key Size 8mm): Lengths from 20mm to 100mm.",
         standards: ["ISO7380", "Grade 10.9: High tensile strength"],
         dimensions: ["M4 (Wrench Key Size 2.5mm): Lengths from 4mm to 40mm.", "M5 (Wrench Key Size 3mm): Lengths from 6mm to 50mm.", "M6 (Wrench Key Size 4mm): Lengths from 8mm to 50mm.", "M8 (Wrench Key Size 5mm): Lengths from 10mm to 100mm.", "M10 (Wrench Key Size 6mm): Lengths from 16mm to 100mm.", "M12 (Wrench Key Size 8mm): Lengths from 20mm to 100mm."],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/button-head-socket-screws-iso7380-grade-10-9.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/button-head-socket-screws-iso7380-grade-10-9-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/button-head-socket-screws-iso7380-grade-10-9.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/button-head-socket-screws-iso7380-grade-10-9-chart-0.jpg"],
       },
       {
         name: "Countersunk Socket Head Cap Screws – DIN 7991 (Grade 10.9)",
@@ -895,7 +967,8 @@ export const categories = [
         longDescription: "Our DIN7991 Grade 10.9 Countersunk Socket Head Cap Screws are expertly crafted for applications requiring a smooth, flush surface finish. These screws are designed to sit flush with the material surface, offering a sleek, unobtrusive appearance. They are made from high-strength materials and provide a robust and reliable hold in mechanical, automotive, and carpentry projects. Their internal hex drive ensures easy installation and a secure fit. Standards: DIN7991 Grade 10.9: High tensile strength Dimensions: M3 (Wrench Key Size 2mm): Lengths from 6mm to 70mm. M4 (Wrench Key Size 2.5mm): Lengths from 6mm to 60mm. M5 (Wrench Key Size 3mm): Lengths from 8mm to 50mm. M6 (Wrench Key Size 4mm): Lengths from 8mm to 60mm. M8 (Wrench Key Size 5mm): Lengths from 10mm to 70mm. M10 (Wrench Key Size 6mm): Lengths from 16mm to 100mm. M12 (Wrench Key Size 8mm): Lengths from 20mm to 100mm. M16 (Wrench Key Size 10mm): Lengths from 30mm to 100mm. M20 (Wrench Key Size 12mm): Lengths from 50mm to 100mm. M24 (Wrench Key Size 14mm): Lengths from 50mm to 100mm.",
         standards: ["DIN7991", "Grade 10.9: High tensile strength"],
         dimensions: ["M3 (Wrench Key Size 2mm): Lengths from 6mm to 70mm.", "M4 (Wrench Key Size 2.5mm): Lengths from 6mm to 60mm.", "M5 (Wrench Key Size 3mm): Lengths from 8mm to 50mm.", "M6 (Wrench Key Size 4mm): Lengths from 8mm to 60mm.", "M8 (Wrench Key Size 5mm): Lengths from 10mm to 70mm.", "M10 (Wrench Key Size 6mm): Lengths from 16mm to 100mm.", "M12 (Wrench Key Size 8mm): Lengths from 20mm to 100mm.", "M16 (Wrench Key Size 10mm): Lengths from 30mm to 100mm.", "M20 (Wrench Key Size 12mm): Lengths from 50mm to 100mm.", "M24 (Wrench Key Size 14mm): Lengths from 50mm to 100mm."],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/countersunk-socket-head-cap-screws-din7991-grade-10-9.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/countersunk-socket-head-cap-screws-din7991-grade-10-9-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/countersunk-socket-head-cap-screws-din7991-grade-10-9.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/countersunk-socket-head-cap-screws-din7991-grade-10-9-chart-0.jpg"],
       },
       {
         name: "Hexagon Wrenches – DIN 911",
@@ -906,6 +979,7 @@ export const categories = [
         standards: ["Metric Series: DIN911, IS3082", "Inch Series: BS 2470"],
         dimensions: ["Sizes: 1.5mm to 32mm", "Box Quantity: Varies from 10 to 100 pcs", "Sizes: 3/32″ to 5/8″", "Box Quantity: Varies from 10 to 100 pcs"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/hexagon-wrenches-din911.jpg"],
+        charts: [],
       },
       {
         name: "Socket Head Cap Screw – DIN 912 (12.9 Grade)",
@@ -915,7 +989,8 @@ export const categories = [
         longDescription: "Our high-quality DIN912 Grade 12.9 Socket Head Cap Screws are designed for robust performance in a wide range of applications. Manufactured from high alloy steel, these screws offer exceptional strength and durability. Available in various diameters and lengths, they are suitable for precise applications requiring high tensile strength. The unique socket head design allows for better torque and ease of access in confined spaces, making them ideal for machinery, automotive, and structural applications. Standards: Conforming to DIN912, ISO4762 Made from high alloy steel Grade 12.9 as per IS1367, ISO898-1 Dimensions: Lengths: 6-40mm Part Numbers: 91212936 to 912129340 Carton Quantities: 42000 to 8400 Lengths: 6-50mm Part Numbers: 91212946 to 912129450 Carton Quantities: 21600 to 3200 Lengths: 6-60mm Part Numbers: 91212956 to 912129560 Carton Quantities: 14400 to 2000",
         standards: ["Conforming to DIN912, ISO4762", "Made from high alloy steel", "Grade 12.9 as per IS1367, ISO898-1"],
         dimensions: ["Lengths: 6-40mm", "Part Numbers: 91212936 to 912129340", "Carton Quantities: 42000 to 8400", "Lengths: 6-50mm", "Part Numbers: 91212946 to 912129450", "Carton Quantities: 21600 to 3200", "Lengths: 6-60mm", "Part Numbers: 91212956 to 912129560", "Carton Quantities: 14400 to 2000"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/socket-head-cap-screw-din912-12-9-grade.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/socket-head-cap-screw-din912-12-9-grade-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/socket-head-cap-screw-din912-12-9-grade.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/socket-head-cap-screw-din912-12-9-grade-chart-0.jpg"],
       },
       {
         name: "Socket Set Screws (Grub Screws) Cup Point DIN 916",
@@ -925,7 +1000,8 @@ export const categories = [
         longDescription: "Our DIN916 Cup Point Socket Set Screws (Grub Screws) are meticulously engineered to provide a secure, internal socket drive fastening solution for precision applications. Ideal for securing objects within or against another, these screws ensure no protrusion or obstruction. Their cup point design offers excellent grip and is perfect for a range of uses in mechanical, electronic, and carpentry fields. Made from high-quality alloy steel, they guarantee durability and strength. Standards: DIN916 ISO Metric Thread Standards (Coarse Series) Property Class 45H Dimensions: M3 (Wrench Key Size 1.5mm): Lengths from 3mm to 20mm. M4 (Wrench Key Size 2mm): Lengths from 4mm to 30mm. M5 (Wrench Key Size 2.5mm): Lengths from 5mm to 45mm. M6 (Wrench Key Size 3mm): Lengths from 5mm to 50mm. M8 (Wrench Key Size 4mm): Lengths from 6mm to 50mm. M10 (Wrench Key Size 5mm): Lengths from 8mm to 50mm. M12 (Wrench Key Size 6mm): Lengths from 10mm to 50mm. M16 (Wrench Key Size 8mm): Lengths from 16mm to 50mm.",
         standards: ["DIN916", "ISO Metric Thread Standards (Coarse Series)", "Property Class 45H"],
         dimensions: ["M3 (Wrench Key Size 1.5mm): Lengths from 3mm to 20mm.", "M4 (Wrench Key Size 2mm): Lengths from 4mm to 30mm.", "M5 (Wrench Key Size 2.5mm): Lengths from 5mm to 45mm.", "M6 (Wrench Key Size 3mm): Lengths from 5mm to 50mm.", "M8 (Wrench Key Size 4mm): Lengths from 6mm to 50mm.", "M10 (Wrench Key Size 5mm): Lengths from 8mm to 50mm.", "M12 (Wrench Key Size 6mm): Lengths from 10mm to 50mm.", "M16 (Wrench Key Size 8mm): Lengths from 16mm to 50mm."],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/socket-set-screws-grub-screws-cup-point-din916.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/socket-set-screws-grub-screws-cup-point-din916-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/socket-set-screws-grub-screws-cup-point-din916.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/socket-set-screws-grub-screws-cup-point-din916-chart-0.jpg"],
       },
       {
         name: "Allen Head",
@@ -936,6 +1012,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
     ],
   },
@@ -963,7 +1040,8 @@ export const categories = [
         longDescription: "Our Stainless Steel Nylock Nuts, complying with DIN 982 standard and crafted from 304 A2 grade material, are designed for robust applications where vibration resistance is key. These nuts feature a nylon insert, providing a reliable, self-locking mechanism that prevents loosening under vibrations and torque. Available in a range of sizes from M3 to M20, they are ideal for various applications demanding durability and a secure hold. Their stainless steel construction ensures excellent corrosion resistance, making them suitable for both indoor and outdoor use. These Nylock Nuts are perfect for ensuring long-lasting, secure assemblies in a variety of settings. Standards: DIN 982 Material: 304 A2 Stainless Steel Dimensions: Available Sizes: M3, M4, M5, M6, M8, M10, M12, M16, M20",
         standards: ["DIN 982", "Material: 304 A2 Stainless Steel"],
         dimensions: ["Available Sizes: M3, M4, M5, M6, M8, M10, M12, M16, M20"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-nylock-nut.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-nylock-nut-chart-0.webp", "/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-nylock-nut-chart-1.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-nylock-nut.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-nylock-nut-chart-0.webp", "/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-nylock-nut-chart-1.jpg"],
       },
       {
         name: "Stainless Steel Hex Head Screw",
@@ -974,6 +1052,7 @@ export const categories = [
         standards: ["Specification: DIN 933", "Property Class: A2-70", "Material: AISI 304 Stainless Steel"],
         dimensions: ["Diameter Range: M3 to M24", "Length Range: 10mm to 150mm"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-hex-head-screw.jpg"],
+        charts: [],
       },
       {
         name: "Stainless Steel Washer",
@@ -983,7 +1062,8 @@ export const categories = [
         longDescription: "Our collection of Stainless Steel Washers is designed to meet various fastening needs in demanding environments. Available in both Plain (DIN125) and Spring (DIN127b) types, these washers are crafted from high-quality SS304 stainless steel, ensuring durability and excellent corrosion resistance. Ranging in sizes from M3 to M24, they are perfect for providing uniform load distribution and preventing damage to surfaces. The Spring Washers offer additional locking security, making them ideal for applications with vibrations or dynamic loads. These washers are vital components in any assembly, ensuring reliability and longevity in both indoor and outdoor applications. Standards: Plain Washer: DIN125 Spring Washer: DIN127b Material: SS304 Stainless Steel Dimensions: Plain Washer Sizes: M3 to M24 Spring Washer Sizes: M3 to M24",
         standards: ["Plain Washer: DIN125", "Spring Washer: DIN127b", "Material: SS304 Stainless Steel"],
         dimensions: ["Plain Washer Sizes: M3 to M24", "Spring Washer Sizes: M3 to M24"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-washer.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-washer-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-washer.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/stainless-steel-washer-chart-0.jpg"],
       },
     ],
   },
@@ -1011,7 +1091,8 @@ export const categories = [
         longDescription: "Our Disc Washers, adhering to DIN2093 standards, are engineered for precision and reliability. These washers are ideal for applications requiring high load-bearing and dynamic forces, which are crucial in preventing fastener loosening due to vibrations and thermal expansion. They offer superior resilience and longevity, constructed from C-80/EN42j Grade material. Available in sizes ranging from M10 to M36, these washers ensure optimal performance in a variety of industrial and engineering settings. Standards: Conforms to DIN 2093 standards. Material: C-80/EN42j Grade. Dimensions: Available Sizes: M10, M12, M16, M20, M24, M30, M36. Each size has its specific Dimension & Weights (ID x OD x T) and pricing, as detailed in the provided list.",
         standards: ["Conforms to DIN 2093 standards.", "Material: C-80/EN42j Grade."],
         dimensions: ["Available Sizes: M10, M12, M16, M20, M24, M30, M36.", "Each size has its specific Dimension & Weights (ID x OD x T) and pricing, as detailed in the provided list."],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/disc-washer-din2093.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/disc-washer-din2093-chart-0.webp"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/disc-washer-din2093.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/disc-washer-din2093-chart-0.webp"],
       },
       {
         name: "Flat Punched Washer (Grade: 300 HV)",
@@ -1021,7 +1102,8 @@ export const categories = [
         longDescription: "Our Flat Punched Washers, graded at 300HV, are designed for robust performance and durability. Ideal for various applications, these washers provide excellent load distribution, ensuring a secure and stable assembly. Available in a range of sizes, from M4 to M36, they are manufactured to meet precise specifications, offering reliability in any setting. These washers are perfect for use where strong resistance and support are required, making them a versatile choice for both professional and DIY projects. Standards: Hardness: Conforms to 300HV-370HV range. Dimensional Standards: Compliant with ISO2016 or DIN125. Dimensions: M4 (4.5 X 9 X 0.80mm): 100 pcs M5 (5.5 X 12.5 X 1mm): 100 pcs M6 (6.6 X 12.5 X 1.6mm): 100 pcs M8 (9 X 17 X 1.6mm): 100 pcs M10 (11 X 21 X 2mm): 100 pcs M12 (14 X 24 X 2.5mm): 100 pcs M14 (16 X 28 X 2.5mm): 100 pcs M16 (18 X 30 X 3.15mm): 100 pcs M20 (22 X 37 X 3.15mm): 100 pcs M24 (26 X 44 X 4mm): 100 pcs M27 (30 X 50 X 4mm): 100 pcs M30 (33 X 56 X 4mm): 100 pcs M36 (39 X 66 X 5mm): 100 pcs",
         standards: ["Hardness: Conforms to 300HV-370HV range.", "Dimensional Standards: Compliant with ISO2016 or DIN125."],
         dimensions: ["M4 (4.5 X 9 X 0.80mm): 100 pcs", "M5 (5.5 X 12.5 X 1mm): 100 pcs", "M6 (6.6 X 12.5 X 1.6mm): 100 pcs", "M8 (9 X 17 X 1.6mm): 100 pcs", "M10 (11 X 21 X 2mm): 100 pcs", "M12 (14 X 24 X 2.5mm): 100 pcs", "M14 (16 X 28 X 2.5mm): 100 pcs", "M16 (18 X 30 X 3.15mm): 100 pcs", "M20 (22 X 37 X 3.15mm): 100 pcs", "M24 (26 X 44 X 4mm): 100 pcs", "M27 (30 X 50 X 4mm): 100 pcs", "M30 (33 X 56 X 4mm): 100 pcs", "M36 (39 X 66 X 5mm): 100 pcs"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/flat-punched-washer-grade-300hv.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/flat-punched-washer-grade-300hv-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/flat-punched-washer-grade-300hv.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/flat-punched-washer-grade-300hv-chart-0.jpg"],
       },
       {
         name: "Lock Serrated Washer",
@@ -1032,6 +1114,7 @@ export const categories = [
         standards: ["Hardness: 350HV.", "Raw Material: Spring steel."],
         dimensions: ["Available Sizes: M3 to M60.", "Specific sizes and part numbers are detailed in the provided price list."],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/lock-serrated-washer.jpg"],
+        charts: [],
       },
       {
         name: "Machined Washer IS2016",
@@ -1041,7 +1124,8 @@ export const categories = [
         longDescription: "Our Machined Washers, conforming to IS2016 standards, offer superior quality and precision. These washers are designed for specific applications requiring meticulous Dimensions & Weights and fit. Made from high-grade materials, they ensure reliable performance and durability. The range spans from M5 to M52, accommodating various bolt diameters. Ideal for scenarios demanding exacting specifications, these washers are a testament to precision engineering, providing the perfect blend of strength and consistency. Standards: Dimensional Conformity: In line with IS2016 and DIN125 standards. Dimensions: M5 (5.5 x 12.5 x 1mm): 100 pcs M6 (6.6 x 12.5 x 1.6mm): 100 pcs M8 (9 x 17 x 1.6mm): 100 pcs M10 (11 x 21 x 2mm): 100 pcs M12 (14 x 24 x 2.5mm): 100 pcs M14 (16 x 28 x 2.5mm): 100 pcs M16 (18 x 30 x 3.15mm):100 pcs M18 (19 x 34 x 3mm): 100 pcs M20 (22 x 37 x 3.15mm): 100 pcs M22 (23 x 39 x 3mm): 100 pcs M24 (26 x 44 x 4mm): 100 pcs M27 (28 x 50 x 4mm): 100 pcs M30 (31 x 56 x 4mm): 100 pcs M33 (34 x 60 x 5mm): 100 pcs M36 (37 x 66 x 5mm): 100 pcs M42 (43 x 78 x 7mm):100 pcs M45 (46 x 85 x 7mm): 100 pcs M48 (50 x 92 x 8mm): 100 pcs M52 (54 x 98 x 8mm): 100 pcs",
         standards: ["Dimensional Conformity: In line with IS2016 and DIN125 standards."],
         dimensions: ["M5 (5.5 x 12.5 x 1mm): 100 pcs", "M6 (6.6 x 12.5 x 1.6mm): 100 pcs", "M8 (9 x 17 x 1.6mm): 100 pcs", "M10 (11 x 21 x 2mm): 100 pcs", "M12 (14 x 24 x 2.5mm): 100 pcs", "M14 (16 x 28 x 2.5mm): 100 pcs", "M16 (18 x 30 x 3.15mm):100 pcs", "M18 (19 x 34 x 3mm): 100 pcs", "M20 (22 x 37 x 3.15mm): 100 pcs", "M22 (23 x 39 x 3mm): 100 pcs", "M24 (26 x 44 x 4mm): 100 pcs", "M27 (28 x 50 x 4mm): 100 pcs", "M30 (31 x 56 x 4mm): 100 pcs", "M33 (34 x 60 x 5mm): 100 pcs", "M36 (37 x 66 x 5mm): 100 pcs", "M42 (43 x 78 x 7mm):100 pcs", "M45 (46 x 85 x 7mm): 100 pcs", "M48 (50 x 92 x 8mm): 100 pcs", "M52 (54 x 98 x 8mm): 100 pcs"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/machined-washer-is2016.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/machined-washer-is2016-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/machined-washer-is2016.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/machined-washer-is2016-chart-0.jpg"],
       },
       {
         name: "Spring Washer Flat Section – DIN 127B",
@@ -1051,7 +1135,8 @@ export const categories = [
         longDescription: "Our Spring Washers Flat Section, complying with DIN127B standards, are essential for preventing loosening due to vibration and torque. These washers are designed for optimal tension and load distribution across the assembly. Available in sizes from M3 to M52, they suit a variety of bolt diameters, catering to a wide range of applications in industries such as automotive, construction, and machinery. The high-quality material and manufacturing process ensure durability and consistent performance. With their high resilience and reliability, these washers are a staple in any secure fastening solution. Standards: Conformance: DIN127B, IS3063, BS4464. Dimensions: M3 (127B3): 100 pcs, 150000 pcs/carton M4 (127B4): 100 pcs, 140000 pcs/carton M5 (127B5): 100 pcs, 70000 pcs/carton M6 (127B6): 100 pcs, 30000 pcs/carton … (Further sizes as per document) M52 (127B52): 100 pcs, 150 pcs/carton",
         standards: ["Conformance: DIN127B, IS3063, BS4464."],
         dimensions: ["M3 (127B3): 100 pcs, 150000 pcs/carton", "M4 (127B4): 100 pcs, 140000 pcs/carton", "M5 (127B5): 100 pcs, 70000 pcs/carton", "M6 (127B6): 100 pcs, 30000 pcs/carton", "… (Further sizes as per document)", "M52 (127B52): 100 pcs, 150 pcs/carton"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/spring-washer-flat-section-din127b.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/spring-washer-flat-section-din127b-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/spring-washer-flat-section-din127b.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/spring-washer-flat-section-din127b-chart-0.jpg"],
       },
       {
         name: "Spring Washer Square Section – DIN 7980",
@@ -1061,7 +1146,8 @@ export const categories = [
         longDescription: "Our Spring Washers Square Section are engineered to DIN7980 standards, ensuring superior quality and performance. Designed for M3 to M24 bolt diameters, these washers provide effective load distribution and maintain tension in assemblies. Their square section offers enhanced locking force, making them ideal for applications requiring strong vibration resistance and durability. The range of sizes caters to various industrial needs, from machinery to automotive sectors. These washers are an essential component in any assembly where reliability and longevity are critical. Standards: Conformance: IS6735(1972), DIN7980. Dimensions: M3 (79803): 100 pcs M4 (79804): 100 pcs M5 (79805): 100 pcs M6 (79806): 100 pcs … (Further sizes as per document) M24 (798024): 100 pcs",
         standards: ["Conformance: IS6735(1972), DIN7980."],
         dimensions: ["M3 (79803): 100 pcs", "M4 (79804): 100 pcs", "M5 (79805): 100 pcs", "M6 (79806): 100 pcs", "… (Further sizes as per document)", "M24 (798024): 100 pcs"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/spring-washer-square-section-din7980-product-page-content.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/spring-washer-square-section-din7980-product-page-content-chart-0.webp"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/spring-washer-square-section-din7980-product-page-content.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/spring-washer-square-section-din7980-product-page-content-chart-0.webp"],
       },
       {
         name: "Star Washers – DIN 6797",
@@ -1071,7 +1157,8 @@ export const categories = [
         longDescription: "Our Star Washers, adhering to DIN6797 standards, blend strength and reliability perfectly. Available in both internal and external types, these washers are designed to provide secure locking in a wide range of applications. They offer excellent resistance to loosening under vibrations and torque, making them ideal for machinery and automotive applications. Sizes range from 2mm to 12mm, ensuring versatility for different requirements. The distinct star-shaped design ensures a tight grip, enhancing the overall safety and longevity of the assembly. Standards: Conformance: Internal washers as per DIN 6797J and External washers as per DIN6797A. Dimensions: 2mm 2.5mm 3mm (both internal and external) 4mm (both internal and external) 5mm(both internal and external) 6mm (both internal and external) 8mm (both internal and external) 10mm (both internal and external) 12mm (both internal and external)",
         standards: ["Conformance: Internal washers as per DIN 6797J and External washers as per DIN6797A."],
         dimensions: ["2mm", "2.5mm", "3mm (both internal and external)", "4mm (both internal and external)", "5mm(both internal and external)", "6mm (both internal and external)", "8mm (both internal and external)", "10mm (both internal and external)", "12mm (both internal and external)"],
-        images: ["/assets/indtools_pwa/frontend/products/KALOTI/star-washers-din6797.jpg", "/assets/indtools_pwa/frontend/products/KALOTI/star-washers-din6797-chart-0.jpg"],
+        images: ["/assets/indtools_pwa/frontend/products/KALOTI/star-washers-din6797.jpg"],
+        charts: ["/assets/indtools_pwa/frontend/products/KALOTI/star-washers-din6797-chart-0.jpg"],
       },
       {
         name: "Taper Washer – IS 5372 / DIN 434",
@@ -1082,6 +1169,7 @@ export const categories = [
         standards: ["Conforms to IS5372 and DIN434 standards."],
         dimensions: ["Available Sizes: M8, M10, M12, M16, M20, M22, M24, M27, M30.", "Each size has its specific part number and price, as detailed in the provided list."],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/taper-washer-is5372-din434.jpg"],
+        charts: [],
       },
       {
         name: "Fiber Washer",
@@ -1092,6 +1180,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Hylam Washer",
@@ -1102,6 +1191,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Polish Washer",
@@ -1112,6 +1202,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Punch Washer",
@@ -1122,6 +1213,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Rubber Washer",
@@ -1132,6 +1224,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
     ],
   },
@@ -1160,6 +1253,7 @@ export const categories = [
         standards: ["Manufactured to meet high-quality standards for aluminium pop rivets.", "Durable and corrosion-resistant."],
         dimensions: ["3/32X1/4 (Part No: PRVT6) – 100 pcs", "3/32X5/16 (Part No: PRVT7) – 100 pcs", "3/32X3/8 (Part No: PRVT8) – 100 pcs", "More sizes available…"],
         images: ["/assets/indtools_pwa/frontend/products/KALOTI/aluminium-pop-rivet.jpg"],
+        charts: [],
       },
       {
         name: "Hammer Drive",
@@ -1170,6 +1264,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "MS Rivets",
@@ -1180,6 +1275,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
     ],
   },
@@ -1208,6 +1304,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Gaskets",
@@ -1218,6 +1315,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Rubber Sheet",
@@ -1228,6 +1326,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "Steel Belt",
@@ -1238,6 +1337,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
       {
         name: "V Belt",
@@ -1248,6 +1348,7 @@ export const categories = [
         standards: [],
         dimensions: [],
         images: [],
+        charts: [],
       },
     ],
   },
@@ -1264,6 +1365,7 @@ export const allProducts = categories.flatMap(cat =>
     name: sp.name,
     image: sp.image,
     images: sp.images && sp.images.length ? sp.images : [sp.image],
+    charts: sp.charts || [],
     route: sp.route || makeRoute(sp.name),
     itemCode: sp.itemCode || sp.name,
     category: cat.name,

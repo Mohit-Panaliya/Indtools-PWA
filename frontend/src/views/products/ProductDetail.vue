@@ -18,9 +18,9 @@
         <!-- Left: Image Gallery -->
         <div class="space-y-3 md:sticky md:top-24 md:self-start">
           <!-- Main Image -->
-          <div :class="darkMode ? 'bg-[#1a2e1f] border-[#2a7f3e]/30' : 'bg-white border-gray-100'" class="rounded-2xl border-2 p-4 md:p-8 relative group cursor-zoom-in overflow-hidden transition-all duration-300 hover:border-[#2a7f3e]/50" @click="lightboxOpen = true">
+          <div :class="darkMode ? 'bg-[#1a2e1f] border-[#2a7f3e]/30' : 'bg-white border-gray-100'" class="rounded-2xl border-2 p-4 md:p-8 relative group cursor-zoom-in overflow-hidden transition-all duration-300 hover:border-[#2a7f3e]/50" @click="openLightbox(galleryImages[selectedImage] || product.image)">
             <div class="aspect-square flex items-center justify-center">
-              <img :src="product.image" :alt="product.name" class="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-110" loading="eager" @error="handleImageError" />
+              <img :src="galleryImages[selectedImage] || product.image" :alt="product.name" class="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-110" loading="eager" @error="handleImageError" />
             </div>
             <div class="absolute top-4 left-4">
               <span :class="darkMode ? 'bg-[#4caf50] text-black' : 'bg-[#2a7f3e] text-white'" class="text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider shadow-lg">{{ product.category }}</span>
@@ -31,8 +31,8 @@
               </div>
             </div>
           </div>
-          <!-- Thumbnails -->
-          <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
+          <!-- Thumbnails (product photos only) -->
+          <div v-if="galleryImages.length > 1" class="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
             <button v-for="(img, i) in galleryImages" :key="i" @click="selectedImage = i"
               :class="selectedImage === i ? (darkMode ? 'border-[#4caf50] bg-[#1a2e1f] shadow-lg shadow-[#4caf50]/20' : 'border-[#2a7f3e] bg-white shadow-lg shadow-[#2a7f3e]/20') : (darkMode ? 'border-[#2a7f3e]/20 bg-[#1a2e1f] hover:border-[#2a7f3e]/50' : 'border-gray-200 bg-white hover:border-gray-300')"
               class="flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-xl border-2 p-1.5 transition-all duration-200">
@@ -172,6 +172,13 @@
                 <span :class="darkMode ? 'text-white' : 'text-[#1a4d2a]'" class="text-sm font-semibold">{{ spec.value }}</span>
               </div>
             </div>
+            <!-- Dimension Chart(s): full-width, natural aspect -->
+            <div v-if="product.charts && product.charts.length" class="mt-6 space-y-4">
+              <p :class="darkMode ? 'text-white' : 'text-[#1a4d2a]'" class="text-sm font-bold">Dimension Chart</p>
+              <div v-for="(chart, i) in product.charts" :key="i" :class="darkMode ? 'bg-[#0f1710] border-[#2a7f3e]/20' : 'bg-[#f9fafb] border-gray-100'" class="rounded-xl border overflow-hidden cursor-zoom-in" @click="openLightbox(chart)">
+                <img :src="chart" :alt="product.name + ' dimensions'" class="w-full h-auto object-contain" loading="lazy" @error="handleImageError" />
+              </div>
+            </div>
           </div>
         </div>
 
@@ -220,7 +227,7 @@
           <button @click="lightboxOpen = false" class="absolute top-4 right-4 text-white/70 hover:text-white p-2 rounded-full hover:bg-white/10 transition-all">
             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
-          <img :src="product.image" :alt="product.name" class="max-w-full max-h-full object-contain rounded-lg animate-fade-in" @error="handleImageError" />
+          <img :src="lightboxSrc" :alt="product.name" class="max-w-full max-h-full object-contain rounded-lg animate-fade-in" @error="handleImageError" />
         </div>
       </transition>
     </teleport>
@@ -269,6 +276,11 @@ const qty = ref(1)
 const addingToCart = ref(false)
 const showToast = ref(false)
 const lightboxOpen = ref(false)
+const lightboxSrc = ref('')
+function openLightbox(src) {
+  lightboxSrc.value = src || ''
+  lightboxOpen.value = true
+}
 const selectedImage = ref(0)
 const selectedSize = ref('')
 const selectedGrade = ref('')
@@ -312,13 +324,13 @@ const allSpecs = computed(() => {
 
 const galleryImages = computed(() => {
   if (!product.value) return []
-  if (product.value.images && product.value.images.length > 1) return product.value.images
+  // photo gallery only — dimension charts render separately, full-width
+  if (product.value.images && product.value.images.length) return product.value.images
   const imgs = [product.value.image]
   const cat = productCategory.value
   if (cat) {
     cat.subProducts.filter(sp => sp.image !== product.value.image).slice(0, 4).forEach(sp => imgs.push(sp.image))
   }
-  while (imgs.length < 4) imgs.push(product.value.image)
   return imgs
 })
 

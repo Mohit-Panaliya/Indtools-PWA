@@ -144,10 +144,11 @@ for g in CATALOG["groups"] + [{"name": n, **LEGACY_META[n], "products": [], "siz
             lines.append("        standards: [],")
             lines.append("        dimensions: [],")
             lines.append("        images: [],")
+            lines.append("        charts: [],")
             lines.append("      },")
         else:
-            imgs = [f"{PRODUCT_BASE}/KALOTI/{p['main_file']}"] + \
-                   [f"{PRODUCT_BASE}/KALOTI/{c}" for c in p["chart_files"]]
+            imgs = [f"{PRODUCT_BASE}/KALOTI/{p['main_file']}"]
+            charts = [f"{PRODUCT_BASE}/KALOTI/{c}" for c in p["chart_files"]]
             std = p["standards"]; dims = p["dimensions"]
             longd = p["short"]
             if std:
@@ -163,6 +164,7 @@ for g in CATALOG["groups"] + [{"name": n, **LEGACY_META[n], "products": [], "siz
             lines.append(f"        standards: {js(std)},")
             lines.append(f"        dimensions: {js(dims)},")
             lines.append(f"        images: {js(imgs)},")
+            lines.append(f"        charts: {js(charts)},")
             lines.append("      },")
     lines.append("    ],")
     lines.append("  },")
@@ -180,6 +182,7 @@ lines.append("  (cat.subProducts || []).map(sp => ({")
 lines.append("    name: sp.name,")
 lines.append("    image: sp.image,")
 lines.append("    images: sp.images && sp.images.length ? sp.images : [sp.image],")
+lines.append("    charts: sp.charts || [],")
 lines.append("    route: sp.route || makeRoute(sp.name),")
 lines.append("    itemCode: sp.itemCode || sp.name,")
 lines.append("    category: cat.name,")
