@@ -167,3 +167,52 @@ This is the catalog shipped with the `indtools_pwa` app. It is created by `indto
 
 The deploy script (`deploy/setup_webshop.py`) creates `Item Price` records for every item on the `Standard Selling` price list, deterministically generated as 25..220 INR in steps of 5 (seeded from the item code hash) — so every deployment gets identical prices without manual data entry.
 
+
+---
+
+# Kaloti precision catalog (70 products, live since Oct 2026)
+
+Replaced the generic placeholder data with the real Kaloti India catalog
+(https://kalotiindia.com/products): real photos, descriptions, DIN/ISO
+standards and dimension tables. 33 existing items updated in place (same
+item codes), 37 new items created, 8 legacy items moved to the correct
+groups. Source of truth: `indtools_pwa/kaloti_catalog.json`.
+
+Import (idempotent):
+
+```bash
+bench --site order.indtools.in execute indtools_pwa.setup_kaloti_products.setup_all
+# repair File records / re-pin images if ever needed:
+bench --site order.indtools.in execute indtools_pwa.setup_kaloti_products.repair_images
+```
+
+PWA catalog (`frontend/src/data/categories.js`) is generated from the same file:
+
+```bash
+python3 deploy/gen_pwa_catalog.py   # reads indtools_pwa/kaloti_catalog.json
+cd frontend && npm run build
+```
+
+> Webshop gotcha: `Website Item.validate_website_image` nulls `website_image`
+> on save unless a **public, attached** `File` record exists for the URL.
+> The import therefore creates `File` rows attached to the Item (photo) /
+> Website Item (dimension charts) and pins image + thumbnail via
+> `set_value`. Never bulk-edit Website Items without re-running
+> `repair_images` afterwards.
+
+## Kaloti groups
+
+| Group | Items |
+|---|---|
+| Anchors | 6 |
+| Bolts / Screws | 4 |
+| Circlip & Dowell Pins | 5 |
+| High Strength Friction Grip Bolts Assemblies | 4 |
+| Lockbolts & Collars | 1 |
+| Nuts | 23 |
+| Petrochemical | 2 |
+| Screws | 8 |
+| Socket Screws | 5 |
+| Stainless Steel | 3 |
+| Washers | 8 |
+| Rivets | 1 |

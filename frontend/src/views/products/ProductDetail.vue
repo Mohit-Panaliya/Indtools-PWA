@@ -289,11 +289,11 @@ const features = ['ISO 9001:2015', 'Made in India', 'Bulk Available', 'Custom Si
 
 const allSpecs = computed(() => {
   if (!product.value) return []
-  return [
+  const specs = [
     { label: 'Product Name', value: product.value.name },
     { label: 'Category', value: product.value.category },
     { label: 'Brand', value: 'INDTOOLS' },
-    { label: 'SKU', value: makeSku(product.value.name) },
+    { label: 'SKU', value: product.value.itemCode || makeSku(product.value.name) },
     { label: 'Selected Size', value: selectedSize.value || productCategory.value?.sizeRange || 'Various' },
     { label: 'Selected Grade', value: selectedGrade.value || productCategory.value?.grade || 'Industrial Grade' },
     { label: 'Surface Finish', value: selectedFinish.value || productCategory.value?.finishing || 'Standard' },
@@ -301,10 +301,18 @@ const allSpecs = computed(() => {
     { label: 'Application', value: 'Industrial / Construction / Automotive' },
     { label: 'Origin', value: 'Gujarat, India' },
   ]
+  if (product.value.standards && product.value.standards.length) {
+    specs.push({ label: 'Standards', value: product.value.standards.join(' | ') })
+  }
+  if (product.value.dimensions && product.value.dimensions.length) {
+    specs.push({ label: 'Dimensions', value: product.value.dimensions.join(' | ') })
+  }
+  return specs
 })
 
 const galleryImages = computed(() => {
   if (!product.value) return []
+  if (product.value.images && product.value.images.length > 1) return product.value.images
   const imgs = [product.value.image]
   const cat = productCategory.value
   if (cat) {
@@ -338,7 +346,7 @@ async function addToCart() {
   addingToCart.value = true
   try {
     cartAdd({
-      item_code: product.value.name,
+      item_code: product.value.itemCode || product.value.name,
       name: product.value.name,
       image: product.value.image,
       category: product.value.category,
